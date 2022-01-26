@@ -1,0 +1,389 @@
+/* landing page custom css */
+
+/* wrapper */
+
+.wrapper{
+    margin-top: 50px;
+}
+.wrapper .tittle{
+    font-weight: 300;
+    font-size: 40px;
+
+}
+.wrapper .para{
+    line-height: 40px;
+}
+
+/* ************cards ********* */
+
+.card-1{
+    padding: 10px;
+    box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%)
+   
+}
+.card-1:hover{
+    transform: translate(0px,-31px);
+    -webkit-transform: translate(0px,-31px);
+    -moz-transform: translate(0px,-31px);
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    transition-delay: .1s;
+
+}
+.card-1 .icon-span{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-color: rgb(196, 203, 245);
+    border-radius: 50%;
+    margin: 12px 0 16px 0;
+}
+.card-1 .icon-span i{
+    font-size: 27px;
+    padding-top: 12px;
+    padding-left: 13px;
+    color: rgb(94, 114, 228);
+}
+.card-1  h6{
+    color: rgb(94, 114, 228);
+    padding: 10px 0 10px 0;
+}
+.card-1 .badge{
+    color: rgb(94, 114, 228);
+    background-color:rgb(196, 203, 245) ;
+    padding: 5px 15px 5px 15px;
+}
+.card-1 button{
+    background-color:rgb(94, 114, 228) ;
+    color: white;
+    margin: 27px 0 15px 0;
+}
+
+/* card 2 */
+
+.card-2{
+    padding: 10px;
+    box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%)
+   
+}
+.card-2:hover{
+    transform: translate(0px,-31px);
+    -webkit-transform: translate(0px,-31px);
+    -moz-transform: translate(0px,-31px);
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    transition-delay: .1s;
+
+
+}
+.card-2 .icon-span{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-color: rgb(196, 203, 245);
+    border-radius: 50%;
+    margin: 12px 0 16px 0;
+}
+.card-2 .icon-span i{
+    font-size: 27px;
+    padding-top: 12px;
+    padding-left: 13px;
+    color: rgb(45, 206, 137);
+}
+.card-2  h6{
+    color: rgb(45, 206, 137);
+    padding: 10px 0 10px 0;
+}
+.card-2 .badge{
+    color: rgb(45, 206, 137);
+    background-color:rgb(196, 203, 245) ;
+    padding: 5px 15px 5px 15px;
+}
+.card-2 button{
+    background-color:rgb(45, 206, 137) ;
+    color: white;
+    margin: 27px 0 15px 0;
+}
+
+
+/* card 3 */
+.card-3{
+    padding: 10px;
+    box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%)
+   
+}
+.card-3:hover{
+    transform: translate(0px,-31px);
+    -webkit-transform: translate(0px,-31px);
+    -moz-transform: translate(0px,-31px);
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    transition-delay: .1s;
+
+
+}
+.card-3 .icon-span{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-color: rgb(196, 203, 245);
+    border-radius: 50%;
+    margin: 12px 0 16px 0;
+}
+.card-3 .icon-span i{
+    font-size: 27px;
+    padding-top: 12px;
+    padding-left: 13px;
+    color: rgb(251, 99, 64);
+}
+.card-3  h6{
+    color: rgb(251, 99, 64);
+    padding: 10px 0 10px 0;
+}
+.card-3 .badge{
+    color: rgb(251, 99, 64);
+    background-color:rgb(196, 203, 245) ;
+    padding: 5px 15px 5px 15px;
+}
+.card-3 button{
+    background-color:rgb(251, 99, 64) ;
+    color: white;
+    margin: 27px 0 15px 0;
+}
+
+/* featuer section */
+
+.feature .span-1{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(169, 236, 208);
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.feature .span-1 i{
+    font-size: 30px;
+    padding-top: 18px;
+    padding-left: 20px;
+    color: rgb(45, 206, 137);
+}
+.feature h3{
+  font-size: 35px;
+  font-weight: 600;
+    
+}
+.feature p{
+    line-height: 27px;
+    font-size: 18px;
+    padding: 10px 0 20px 0;
+}
+/* inner span */
+.inner-span-1{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    /* background-color: red; */
+    border-radius: 50%;
+    background-color: rgb(169, 236, 208);
+   
+}
+.inner-span-1 i{
+    color: rgb(45, 206, 137);
+    padding-top: 11px;
+    padding-left: 13px;
+
+}
+.feature small{
+    padding-left: 10px;
+    /* color: red; */
+    font-size: 15px;
+}
+/* inner span 2*/
+.inner-span-2{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    /* background-color: red; */
+    border-radius: 50%;
+    background-color: rgb(169, 236, 208);
+   
+}
+.inner-span-2 i{
+    color: rgb(45, 206, 137);
+    padding-top: 11px;
+    padding-left: 13px;
+
+}
+.feature small{
+    padding-left: 10px;
+    /* color: red; */
+    font-size: 15px;
+}
+/* inner span 3 */
+.inner-span-3{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(169, 236, 208);
+   
+}
+.inner-span-3 i{
+    color: rgb(45, 206, 137);
+    padding-top: 11px;
+    padding-left: 13px;
+
+}
+.feature small{
+    padding-left: 15px;
+    /* color: red; */
+    font-size: 18px;
+}
+/* span 4 */
+.feature .span-4{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(169, 236, 208);
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.feature .span-4 i{
+    font-size: 30px;
+    padding-top: 18px;
+    padding-left: 20px;
+    color: rgb(45, 206, 137);
+}
+.feature h3{
+  font-size: 35px;
+  font-weight: 600;
+    
+}
+.feature p{
+    line-height: 24px;
+    font-size: 18px;
+    padding: 8px 0 20px 0;
+}
+
+/* *******************feature-box **************** */
+.feature-box{
+    background: #fbb140;
+    background: linear-gradient(87deg,#fbb140 0%, #fb6340 100%);
+    background: -webkit-linear-gradient(87deg,#fbb140 0%, #fb6340 100%);
+    background: -moz-linear-gradient(87deg,#fbb140 0%, #fb6340 100%);
+   
+}
+.feature-box .card{
+    box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%) 
+}
+.feature-box .feature-span{
+    
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    /* background-color: red; */
+   
+    border-radius: 50%;
+}
+.feature-box .feature-span i{
+    padding-top: 19px;
+    padding-left: 19px;
+    font-size: 20px;
+}
+ 
+.feature-box  .banner-img{
+    padding-top: 100px;
+}
+
+/* ************our team ******************** */
+.team-content{
+   padding-top: 50px;
+   
+
+}
+.team-content h2{
+    font-size: 35px;
+    
+}
+
+.team-content p{
+    font-size: 24px;
+    line-height: 35px;
+
+    
+}
+/* ********team images******* */
+.team-images .inner-span{
+    /* background-color: red; */
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    
+
+
+}
+.team-images img{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+}
+.team-images .inner-span i{
+    color: white;
+    font-size: 15px;
+    padding-top: 11px;
+    padding-left: 13px;
+}
+
+/* ************common************* */
+.common{
+    background: #fbb140;
+    background: linear-gradient(87deg,#fbb140 0%, #fb6340 100%);
+    background: -webkit-linear-gradient(87deg,#fbb140 0%, #fb6340 100%);
+    background: -moz-linear-gradient(87deg,#fbb140 0%, #fb6340 100%);
+
+}
+.common p{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/* ********* contact section **************** */
+.contact-section{
+    background-color: rgb(23, 39, 77);
+    
+
+}
+.contact-section p{
+    font-size: 23px;
+    font-weight: 200;
+    line-height: 35px;
+    padding: 20px 15px 15px 25px;
+}
+.contact-section .tool-span{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    /* background-color: red; */
+    border-radius: 50%;
+}
+.contact-section .tool-span i{
+    font-size: 30px;
+    padding-left: 19px;
+    padding-top: 18px;
+    
+}
+.contact-section .inner-tittle{
+    font-size: 20px;
+    line-height: 26px;
+}
+
+/* *****contact-us-form******* */
+
+
