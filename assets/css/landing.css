@@ -1,162 +1,168 @@
-/* landing page custom css */
 
-/* wrapper */
 
-.wrapper{
-    margin-top: 50px;
+.landing-banner{
+    background-color: rgb(111, 131, 238);
+   min-height: 120vh;
 }
-.wrapper .tittle{
-    font-weight: 300;
-    font-size: 40px;
-
+.landing-banner .content-area{
+    margin-top: 65px;
 }
-.wrapper .para{
-    line-height: 40px;
+.landing-banner .content-area p{
+    font-size: 1.15rem;
+    font-weight: 100;
+    line-height: 1.7;   
 }
 
-/* ************cards ********* */
+
+/* =======cards section======= */
+.card-section{
+    margin-top: -160px;
+}
+@media screen and (max-width:992px) {
+    .card-section{
+        margin-top: 20px;
+        
+    }
+      
+}
 
 .card-1{
-    padding: 10px;
-    box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%)
-   
+    box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);   
 }
 .card-1:hover{
-    transform: translate(0px,-31px);
-    -webkit-transform: translate(0px,-31px);
-    -moz-transform: translate(0px,-31px);
+    transform: translate(0px,-15px);
+    -webkit-transform: translate(0px,-15px);
+    -moz-transform: translate(0px,-15px);
     transition-property: all;
-    transition-duration: .2s;
+    transition-duration: .1s;
     transition-timing-function: linear;
-    transition-delay: .1s;
-
+    transition-delay: .2s;
 }
-.card-1 .icon-span{
+.card-1 .icon-box{
     display: inline-block;
-    width: 55px;
-    height: 55px;
+    width: 47px;
+    height: 47px;
     background-color: rgb(196, 203, 245);
     border-radius: 50%;
     margin: 12px 0 16px 0;
 }
-.card-1 .icon-span i{
-    font-size: 27px;
-    padding-top: 12px;
-    padding-left: 13px;
-    color: rgb(94, 114, 228);
+.card-1 .icon-box i{
+     font-size: 18px; 
 }
-.card-1  h6{
-    color: rgb(94, 114, 228);
-    padding: 10px 0 10px 0;
+
+.card-1 p{
+    color: #3c6382;
+    font-size: 14px;
 }
 .card-1 .badge{
-    color: rgb(94, 114, 228);
-    background-color:rgb(196, 203, 245) ;
-    padding: 5px 15px 5px 15px;
+    background-color:rgb(229, 232, 250) ;
+    padding: 6px 12px 6px 12px;
+    font-weight: 100;
+    font-size: 11px;
 }
 .card-1 button{
-    background-color:rgb(94, 114, 228) ;
     color: white;
-    margin: 27px 0 15px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+.card-1 button:hover{
+    color: white;
 }
 
 /* card 2 */
 
 .card-2{
-    padding: 10px;
-    box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%)
-   
+    box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);   
 }
 .card-2:hover{
-    transform: translate(0px,-31px);
-    -webkit-transform: translate(0px,-31px);
-    -moz-transform: translate(0px,-31px);
+    transform: translate(0px,-15px);
+    -webkit-transform: translate(0px,-15px);
+    -moz-transform: translate(0px,-15px);
     transition-property: all;
-    transition-duration: .2s;
+    transition-duration: .1s;
     transition-timing-function: linear;
-    transition-delay: .1s;
-
-
+    transition-delay: .2s;
 }
-.card-2 .icon-span{
+.card-2 .icon-box{
     display: inline-block;
-    width: 55px;
-    height: 55px;
-    background-color: rgb(196, 203, 245);
+    width: 47px;
+    height: 47px;
+    background-color: rgb(169, 236, 208);
     border-radius: 50%;
     margin: 12px 0 16px 0;
 }
-.card-2 .icon-span i{
-    font-size: 27px;
-    padding-top: 12px;
-    padding-left: 13px;
-    color: rgb(45, 206, 137);
+.card-2 .icon-box i{
+     font-size: 18px; 
 }
-.card-2  h6{
-    color: rgb(45, 206, 137);
-    padding: 10px 0 10px 0;
+.card-2 p{
+    color: #3c6382;
+    font-size: 14px;
 }
 .card-2 .badge{
-    color: rgb(45, 206, 137);
-    background-color:rgb(196, 203, 245) ;
-    padding: 5px 15px 5px 15px;
+    background-color:rgb(201, 243, 225);
+    padding: 6px 12px 6px 12px;
+    font-weight: 100;
+    font-size: 11px;
 }
 .card-2 button{
-    background-color:rgb(45, 206, 137) ;
+    /* background-color:rgb(94, 114, 228) ; */
     color: white;
-    margin: 27px 0 15px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+.card-2 button:hover{
+    color: white;
 }
 
 
 /* card 3 */
 .card-3{
-    padding: 10px;
-    box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%)
-   
+    box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);   
 }
 .card-3:hover{
-    transform: translate(0px,-31px);
-    -webkit-transform: translate(0px,-31px);
-    -moz-transform: translate(0px,-31px);
+    transform: translate(0px,-15px);
+    -webkit-transform: translate(0px,-15px);
+    -moz-transform: translate(0px,-15px);
     transition-property: all;
-    transition-duration: .2s;
+    transition-duration: .1s;
     transition-timing-function: linear;
-    transition-delay: .1s;
-
-
+    transition-delay: .2s;
 }
-.card-3 .icon-span{
+.card-3 .icon-box{
     display: inline-block;
-    width: 55px;
-    height: 55px;
-    background-color: rgb(196, 203, 245);
+    width: 47px;
+    height: 47px;
+    background-color: rgb(253, 197, 184);
     border-radius: 50%;
     margin: 12px 0 16px 0;
 }
-.card-3 .icon-span i{
-    font-size: 27px;
-    padding-top: 12px;
-    padding-left: 13px;
-    color: rgb(251, 99, 64);
+.card-3 .icon-box i{
+     font-size: 18px; 
 }
-.card-3  h6{
-    color: rgb(251, 99, 64);
-    padding: 10px 0 10px 0;
+.card-3 p{
+    color: #3c6382;
+    font-size: 14px;
 }
 .card-3 .badge{
-    color: rgb(251, 99, 64);
-    background-color:rgb(196, 203, 245) ;
-    padding: 5px 15px 5px 15px;
+    background-color:rgb(254, 228, 222);
+    padding: 6px 12px 6px 12px;
+    font-weight: 100;
+    font-size: 11px;
 }
 .card-3 button{
-    background-color:rgb(251, 99, 64) ;
     color: white;
-    margin: 27px 0 15px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+.card-3 button:hover{
+    color: white;
 }
 
-/* featuer section */
-
-.feature .span-1{
+/* =========awesome-featuer section =========*/
+.awesome-features{
+    margin: 100px auto;
+}
+.awesome-features .icon-box{
     display: inline-block;
     width: 70px;
     height: 70px;
@@ -165,66 +171,32 @@
     margin-top: 60px;
     margin-bottom: 40px;
 }
-.feature .span-1 i{
+.awesome-features .icon-box i{
     font-size: 30px;
-    padding-top: 18px;
-    padding-left: 20px;
     color: rgb(45, 206, 137);
 }
-.feature h3{
+.awesome-features h3{
   font-size: 35px;
-  font-weight: 600;
-    
+  font-weight: 600;    
 }
-.feature p{
+.awesome-features p{
     line-height: 27px;
     font-size: 18px;
     padding: 10px 0 20px 0;
 }
-/* inner span */
-.inner-span-1{
+/* inner icon box 1 */
+.inner-icon-box1{
     width: 40px;
     height: 40px;
-    display: inline-block;
-    /* background-color: red; */
     border-radius: 50%;
-    background-color: rgb(169, 236, 208);
-   
+    background-color: rgb(169, 236, 208);  
 }
-.inner-span-1 i{
-    color: rgb(45, 206, 137);
-    padding-top: 11px;
-    padding-left: 13px;
+.inner-icon-box1 i{
+    color: rgb(45, 206, 137); 
+}
 
-}
-.feature small{
-    padding-left: 10px;
-    /* color: red; */
-    font-size: 15px;
-}
-/* inner span 2*/
-.inner-span-2{
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    /* background-color: red; */
-    border-radius: 50%;
-    background-color: rgb(169, 236, 208);
-   
-}
-.inner-span-2 i{
-    color: rgb(45, 206, 137);
-    padding-top: 11px;
-    padding-left: 13px;
-
-}
-.feature small{
-    padding-left: 10px;
-    /* color: red; */
-    font-size: 15px;
-}
-/* inner span 3 */
-.inner-span-3{
+/* inner icon box 2*/
+.inner-icon-box2{
     width: 40px;
     height: 40px;
     display: inline-block;
@@ -232,43 +204,38 @@
     background-color: rgb(169, 236, 208);
    
 }
-.inner-span-3 i{
+.inner-icon-box2 i{
     color: rgb(45, 206, 137);
-    padding-top: 11px;
-    padding-left: 13px;
-
 }
-.feature small{
-    padding-left: 15px;
-    /* color: red; */
-    font-size: 18px;
-}
-/* span 4 */
-.feature .span-4{
+/* inner icon box 3 */
+.inner-icon-box3{
+    width: 40px;
+    height: 40px;
     display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(169, 236, 208);  
+}
+.inner-icon-box3 i{
+    color: rgb(45, 206, 137);
+}
+
+/* ========customers-area======== */
+.customers-area .box-area{
     width: 70px;
     height: 70px;
-    background-color: rgb(169, 236, 208);
+    background-color: rgb(248, 192, 180);
     border-radius: 50%;
-    margin-top: 25px;
-    margin-bottom: 30px;
 }
-.feature .span-4 i{
+.customers-area .box-area i{
+    color: rgb(255, 55, 11);
     font-size: 30px;
-    padding-top: 18px;
-    padding-left: 20px;
-    color: rgb(45, 206, 137);
 }
-.feature h3{
-  font-size: 35px;
-  font-weight: 600;
-    
+.customers-area a:hover{
+   color:  rgb(255, 42, 0);
+   text-decoration: none;
 }
-.feature p{
-    line-height: 24px;
-    font-size: 18px;
-    padding: 8px 0 20px 0;
-}
+
+
 
 /* *******************feature-box **************** */
 .feature-box{
@@ -278,21 +245,17 @@
     background: -moz-linear-gradient(87deg,#fbb140 0%, #fb6340 100%);
    
 }
-.feature-box .card{
+.feature-box .card:not(1){
     box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%) 
 }
-.feature-box .feature-span{
+.feature-box .feature-icon-box {
     
     width: 60px;
     height: 60px;
     display: inline-block;
-    /* background-color: red; */
-   
     border-radius: 50%;
 }
-.feature-box .feature-span i{
-    padding-top: 19px;
-    padding-left: 19px;
+.feature-box .feature-icon-box  i{
     font-size: 20px;
 }
  
@@ -300,11 +263,9 @@
     padding-top: 100px;
 }
 
-/* ************our team ******************** */
+/* ========our team ========= */
 .team-content{
    padding-top: 50px;
-   
-
 }
 .team-content h2{
     font-size: 35px;
@@ -312,35 +273,30 @@
 }
 
 .team-content p{
-    font-size: 24px;
-    line-height: 35px;
-
-    
+    line-height: 35px;   
 }
-/* ********team images******* */
-.team-images .inner-span{
-    /* background-color: red; */
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    border-radius: 50%;
-    cursor: pointer;
-    
+/* =========team images======== */
 
-
-}
 .team-images img{
     width: 190px;
     height: 190px;
     border-radius: 50%;
 }
-.team-images .inner-span i{
-    color: white;
-    font-size: 15px;
-    padding-top: 11px;
-    padding-left: 13px;
-}
 
+.social-icon-box{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+
+}
 /* ************common************* */
 .common{
     background: #fbb140;
@@ -350,40 +306,75 @@
 
 }
 .common p{
-    font-size: 20px;
     line-height: 32px;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
-/* ********* contact section **************** */
+/* ======== contact section ======== */
+
 .contact-section{
     background-color: rgb(23, 39, 77);
-    
-
+    min-height: 105vh;
 }
 .contact-section p{
-    font-size: 23px;
-    font-weight: 200;
+    font-size: 18px;
+    font-weight: 100;
     line-height: 35px;
-    padding: 20px 15px 15px 25px;
+    padding: 20px 25px 15px 25px;
 }
 .contact-section .tool-span{
     display: inline-block;
     width: 70px;
     height: 70px;
-    /* background-color: red; */
     border-radius: 50%;
 }
 .contact-section .tool-span i{
     font-size: 30px;
-    padding-left: 19px;
-    padding-top: 18px;
-    
+       
 }
 .contact-section .inner-tittle{
-    font-size: 20px;
     line-height: 26px;
 }
 
-/* *****contact-us-form******* */
+/* =========contact-us-form========= */
+
+.contact-us-form    .input-group{
+   box-shadow:  0 1px 3px rgb(50 50 93 / 15%), 0 1px 0 rgb(0 0 0 / 2%);
+}
+.contact-us-form input{
+    border-left: none;   
+}
+.contact-us-form input::placeholder{
+    font-size: 14px;
+    padding-right: 7px;
+    color: gray;
+    opacity: 0.7;
+}
+.contact-us-form textarea::placeholder{
+    font-size: 14px;
+    padding-right: 7px;
+    color: gray;
+    opacity: 0.7;
+}
+.contact-us-form   input:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.contact-us-form   textarea:focus{ 
+    box-shadow: none;
+    border-color: transparent; 
+}
+
+.contact-us-form .input-group-prepend .input-group-text{
+    background-color: #ffff;
+    border-right: none;
+}
+.contact-us-form .input-group-prepend .input-group-text i{
+    color: gray;
+    opacity: 0.6;
+  
+}
 
 

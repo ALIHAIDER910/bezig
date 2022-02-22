@@ -15,729 +15,1019 @@
   <link rel="stylesheet" href="assets/vandor/bootstrap-datepicker/css/bootstrap-datepicker.css">
   <!-- custom styles -->
   <link rel="stylesheet" href="assets/css/index.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <title>theme project</title>
 </head>
 
 <body>
-  <!-- banner section start here ********* -->
-  <div class="banner">
-    <!-- header -->
-    <header class="header ">
-      <div class="container ">
-        <div class="row ">
-          <div class="col-md-12 ">
+  <div class="banner  ">
+    <!-- ========header section======= -->
+    <header class="header header-global">
+      <!-- navbar -->
+      <nav id="navbar-main" class="navbar navbar-expand-lg  navbar-light navbar-main navbar-transparent headroom">
+        <div class="container ">
+          <!-- brand -->
+          <a href="index.html" class="navbar-brand mr-lg-5">
+            <img src="assets/images/brand/white.png"  height="30px" class="img-fluid" alt="">
+          </a>
+          <!-- toggler -->
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global"
+            aria-expanded="false" aria-controls="navbar_global" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <!-- navbar -->
-            <nav class="navbar navbar-expand-lg navbar-light   ">
-              <!-- brand -->
-              <a href="#" class="navbar-brand">
-                <img src="assets/images/brand/white.png" width="130px" height="130px" class="img-fluid   " alt="">
-              </a>
-              <!-- toggler -->
-              <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="mynavbar">
-                <!-- nav -->
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item dropdown">
-                    <a href="" class="nav-link  text-capitalize mx-lg-4 text-white "
-                      data-toggle="dropdown">components</a>
-                    <div class="dropdown-menu text-capitalize">
-                      <a href="index.html" class="dropdown-item text-primary ">
-                        <!-- first icon -->
-                        <div class=" d-flex ">
-                          <span class="span-icon background-primary   "><i class="fas fa-rocket"></i></span>
-                          <div class="ml-3 mt-lg-0 mt-3 ">
-                            <h6 class="text-uppercase  "> getting started</h6>
-                            <small class="text-muted  d-lg-inline-block d-none ">loren how to use Argon compiling
-                              Sass,change brand<br> colors and more.</small>
-                          </div>
-                        </div>
-
-                      </a>
-                      <a href="index.html" class="dropdown-item text-primary ">
-                        <!-- second icon -->
-                        <div class=" d-flex ">
-                          <span class="span-icon background-success   "><i class="fas fa-palette"></i></span>
-                          <div class="ml-3 mt-lg-0 mt-3">
-                            <h6 class="text-uppercase   "> foundation</h6>
-                            <small class="text-muted  d-lg-inline-block d-none ">Learn more about colors, typography,
-                              icons and the grid<br> system we used for Argon.</small>
-                          </div>
-                        </div>
-
-                        <a href="index.html" class="dropdown-item text-danger ">
-                          <!-- thired icon -->
-                          <div class=" d-flex ">
-                            <span class="span-icon background-warning   "><i class="fas fa-toggle-off"></i></span>
-                            <div class="ml-3 mt-lg-0 mt-3">
-                              <h6 class=" text-uppercase  "> components</h6>
-                              <small class="text-muted  d-lg-inline-block d-none ">Browse our 50 beautiful handcrafted
-                                components<br> offered in the Free version.</small>
-                            </div>
-                          </div>
-
-                        </a>
-
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown ">
-                    <a href="" class="nav-link text-capitalize text-white   " data-toggle="dropdown"
-                      id="mydropdown">examples</a>
-                    <!--dropdown menu  -->
-                    <div class="dropdown-menu text-capitalize" aria-labelledby="mydropdown">
-                      <a href="landing.html" class="dropdown-item">landing</a>
-                      <a href="profile.html" class="dropdown-item">profile</a>
-                      <a href="login.html" class="dropdown-item">login</a>
-                      <a href="register.html" class="dropdown-item">register</a>
-                    </div>
-                  </li>
-                </ul>
-                <!-- social nav links -->
-                <ul class="navbar-nav navbar-social-links ">
-                  <li class="nav-item ">
-                    <a href="" class="nav-link">
-                      <i class="fab fa-facebook-square"></i>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="" class="nav-link">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="" class="nav-link">
-                      <i class="fab fa-twitter-square"></i>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="" class="nav-link">
-                      <i class="fab fa-github"></i>
-                    </a>
-                  </li>
-                  <button class="btn button-neutral  ml-4  text-primary display-4 btn-transform ">
-                    <i class="fas fa-cloud-download-alt"></i> download</button>
-                </ul>
+          <!-- -----custom collapse -->
+          <div class="navbar-collapse collapse" id="navbar_global">
+            <div class="navbar-collapse-header">
+              <div class="row">
+                <div class="col-6 collapse-brand">
+                  <a href="">
+                    <img src="./assets/images/brand/blue.png" alt="">
+                  </a>
+                </div>
+                <div class="col-6 collapse-close">
+                  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global"
+                    aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                  </button>
+                </div>
               </div>
-            </nav>
+            </div>  
+            <!-- nav -->
+            <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                  <i class="fas fa-toggle-off  d-lg-none"></i>
+                  <span class="nav-link-inner--text">Components</span>
+                </a>
+                <div class="dropdown-menu  dropdown-menu-xl ">
+
+                  <div class="dropdown-menu-inner">
+                    <!-- drop item 1 -->
+                    <div class="dropdown-item">
+                      <a href="" class="media d-flex align-items-center ">
+                        <div class="icon  background-primary text-white  rounded-circle icon-box">
+                          <i class="fas fa-rocket  text-white"></i>
+                        </div>
+                        <div class="media-body ml-3">
+                          <h6 class=" text-primary mb-md-1">Getting started</h6>
+                          <small class="para  d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss,
+                            change brand<br> colors and more.</small>
+                        </div>
+                      </a>
+                    </div>
+                    <!--dropdown item end-->
+
+                    <!-- drop item 2 -->
+                    <div class="dropdown-item">
+                      <a href=" " class="media d-flex align-items-center ">
+                        <div class="icon background-success text-white  rounded-circle text-white icon-box">
+                          <i class="fas fa-palette"></i>
+                        </div>
+
+                        <div class="media-body ml-3">
+                          <h6 class=" text-primary  mb-md-1 ">Foundation</h6>
+                          <small class="para d-none d-md-inline-block mb-0 ">Learn more about colors, typography, icons
+                            and the grid<br> system we used for Argon.</small>
+                        </div>
+                      </a>
+                    </div>
+                    <!--dropdown item end-->
+                    <!-- drop item 3 -->
+                    <div class="dropdown-item">
+                      <a href="" class="media d-flex align-items-center">
+                        <div class="icon background-warning text-white  rounded-circle  icon-box">
+                          <i class="fas fa-toggle-off "></i>
+                        </div>
+                        <div class="media-body ml-3">
+                          <h6 class=" text-danger  mb-md-1">Components</h6>
+                          <small class="para d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted
+                            components<br> offered in the Free version.</small>
+                        </div>
+                      </a>
+                    </div>
+                    <!--dropdown item end-->
+                  </div>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                  <i class="fas fa-columns d-lg-none"></i>
+                  <span class="nav-link-inner--text">Examples</span>
+                </a>
+                <div class="dropdown-menu border-0 ">
+                  <a href="landing.html" class="dropdown-item">Landing</a>
+                  <a href="profile.html" class="dropdown-item">Profile</a>
+                  <a href="login.html" class="dropdown-item">Login</a>
+                  <a href="register.html" class="dropdown-item">Register</a>
+                </div>
+              </li>
+            </ul>
+            <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link nav-link-icon" href="" target="_blank" data-toggle="tooltip"
+                  title="Like us on Facebook">
+                  <i class="fab fa-facebook-square "></i>
+                  <span class="nav-link-inner--text d-lg-none">Facebook</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-icon" href="" target="_blank" data-toggle="tooltip"
+                  title="Follow us on Instagram">
+                  <i class="fab fa-instagram "></i>
+                  <span class="nav-link-inner--text d-lg-none">Instagram</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-icon" href="" target="_blank" data-toggle="tooltip"
+                  title="Follow us on Twitter">
+                  <i class="fab fa-twitter"></i>
+                  <span class="nav-link-inner--text d-lg-none">Twitter</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-icon" href="" target="_blank" data-toggle="tooltip"
+                  title="Star us on Github">
+                  <i class="fab fa-github "></i>
+                  <span class="nav-link-inner--text d-lg-none">Github</span>
+                </a>
+              </li>
+              <li class="nav-item d-none d-lg-block ml-lg-4">
+                <a href="#" target="_blank" class="btn custom-btn button-neutral button-mediam  ">
+                  <span class="btn-inner--icon">
+                    <i class="fas fa-cloud-download-alt mr-2"></i>
+                  </span>
+                  <span class=" nav-link-inner">Download</span>
+                </a>
+              </li>
+            </ul>
+
           </div>
         </div>
-      </div>
+        <!--container-->
+      </nav>
     </header>
-    <!-- banner section -->
-    <div class="container   ">
-      <div class="row justify-content-center banner-section">
-        <div class="col-lg-6   ">
-          <!-- img -->
+    <!--==========hero section========== -->
+    <div class="container   hero   ">
+      <div class="row justify-content-center hero-row   ">
+        <div class="col-lg-6">
           <img src="assets/images/brand/white.png" class="img-fluid  " alt="" width="185px" height="185px">
-          <p>A beautiful Design System for Bootstrap 4. It's Free <br> and Open Source.</p>
-          <button class="btn btn-transform button-neutral text-dark py-3 text-uppercase ">
+          <h5>A beautiful Design System for Bootstrap 4. It's Free <br> and Open Source.</h5>
+          <a class="btn custom-btn button-lg  button-white text-dark">
             <i class="fas fa-cloud-download-alt"></i> download html
-          </button>
-          <button class="btn btn-transform button-black  py-3    text-uppercase">
+          </a>
+          <a class="btn custom-btn button-lg button-dark mx-2 my-sm-0 my-3">
             <i class="fab fa-github "></i><span class="text-danger"> start us</span> on github
-          </button>
+          </a>
           <br>
-          <small>*proudly coded by</small>
-          <img src="assets/images/brand/creativetim-white-slim.png" class="img-fluid" width="130px" height="130px"
+          <small class="d-inline-block pt-4">*proudly coded by</small>
+          <img src="assets/images/brand/creativetim-white-slim.png" class="img-fluid " width="130px" height="130px"
             alt="">
         </div>
       </div>
     </div> <br>
-
+  </div>
   </div>
   <!--banner end-->
-  <!-- second section ******************* -->
+  <!-- ==========second section ========== -->
   <div class="container my-5  basic-elements">
     <div class="row">
-      <div class="col text-uppercase">
-        <h2 class="tittle">Basic Elements</h2>
-        <h3 class="sub-tittle ">buttons</h3><br>
-        <button class="btn button-primary btn-transform ">button</button>
-        <button class="btn button-primary btn-transform"> <i class="fas fa-shopping-bag"></i> with icon</button>
-        <button class="btn button-primary btn-transform"><i class="fas fa-shopping-bag"></i></button>
+      <div class="col ">
+        <h2 class="h2"><span>Basic Elements</span></h2>
+        <h3 class="h4  color-success  text-capitalize">buttons</h3>
+        <button class="btn custom-btn button-mediam button-primary ">button</button>
+        <button class="btn custom-btn  button-mediam  button-primary mx-2 "> <i class="fas  fa-shopping-bag px-1 "></i> with
+          icon</button>
+        <button class="btn custom-btn  button-mediam  button-primary "><i class="fas fa-shopping-bag"></i></button>
       </div>
     </div>
     <div class="row">
-      <div class="col">
+      <div class="col ">
         <small>PICK YOUR SIZE</small><br>
-        <button class="btn button-primary btn-transform btn-sm">small</button>
-        <button class="btn button-primary btn-transform">regular</button>
-        <button class="btn button-primary btn-transform btn-lg">larg button</button>
+        <button class="btn custom-btn button-sm button-primary">small</button>
+        <button class="btn custom-btn  button-mediam button-primary mx-2">regular</button>
+        <button class="btn custom-btn button-lg button-primary">large button</button>
       </div>
     </div>
     <div class="row">
       <div class="col">
         <small>PICK YOUR color</small><br>
-        <button class="btn button-primary  btn-transform">primary</button>
-        <button class="btn button-info btn-transform">info</button>
-        <button class="btn button-success btn-transform">success</button>
-        <button class="btn button-warning btn-transform">warning</button>
-        <button class="btn button-danger btn-transform">danger</button>
-        <button class="btn button-neutral btn-transform text-primary">neutral</button>
+        <button class="btn custom-btn button-mediam button-primary">primary</button>
+        <button class="btn custom-btn button-mediam button-info mx-2">info</button>
+        <button class="btn custom-btn button-mediam button-success">success</button>
+        <button class="btn custom-btn button-mediam button-warning mx-2">warning</button>
+        <button class="btn custom-btn button-mediam button-danger">danger</button>
+        <button class="btn custom-btn button-mediam button-neutral mx-2">neutral</button>
       </div>
     </div>
-
     <div class="row">
       <div class="col">
         <small>outline</small><br>
-        <button class="btn btn-outline-primary text-uppercase ">outline-primary</button>
-        <button class="btn btn-outline-info text-uppercase ">outline-info</button>
-        <button class="btn btn-outline-success text-uppercase ">outline-sucess</button>
-        <button class="btn btn-outline-warning text-uppercase ">outline-warning</button>
-        <button class="btn btn-outline-danger text-uppercase ">outline-danger</button>
-
+        <button class="btn outline button-outline-primary ">outline-primary</button>
+        <button class="btn outline  button-outline-info mx-sm-2">outline-info</button>
+        <button class="btn outline  button-outline-success">outline-sucess</button>
+        <button class="btn outline  button-outline-warning mx-sm-2">outline-warning</button>
+        <button class="btn outline  button-outline-danger">outline-danger</button>
       </div>
     </div>
 
     <div class="row">
       <div class="col">
-        <small>links</small><br>
-        <a class="btn btn-link text-uppercase text-dark ">default</a>
-        <a class="btn btn-link text-uppercase text-primary">primary</a>
-        <a class="btn btn-link text-uppercase text-info">info</a>
-        <a class="btn btn-link text-uppercase text-success">success</a>
-        <a class="btn btn-link text-uppercase text-warning">warning</a>
-        <a class="btn btn-link text-uppercase text-danger">danger</a>
+        <small class="d-block">links</small><br>
+        <a href="#" class=" custom-link  color-dark">default</a>
+        <a href="#" class=" custom-link  color-primary">primary</a>
+        <a href="#" class=" custom-link  color-info">info</a>
+        <a href="#" class=" custom-link  color-success">success</a>
+        <a href="#" class=" custom-link  color-warning ">warning</a>
+        <a href="#" class=" custom-link  color-danger">danger</a>
       </div>
     </div>
   </div>
-  <!-- forms -->
-  <div class="container form">
-    <div class="row">
-      <div class="col">
-        <h3 class="sub-tittle ">inputs</h3>
-        <small>form controls</small> <br>
-      </div>
+  <!-- ==========forms section========== -->
+
+  <div class="container ">
+    <div class="row p-3">
+      <h3 class="h4 color-success text-capitalize">Inputs</h3>
     </div>
+    <div class="row px-3">
+      <small>FORM CONTROLS</small>
+    </div>
+
     <!-- form row -->
-    <div class="row  my-4">
-      <!-- form -->
-      <div class="col-lg-4 col-sm-6">
-        <form action="" class="form-group form-one ">
-          <input type="text" class="form-control py-4 is-valid" placeholder="Regular">
-          <input type="text" class="form-control py-4 mt-3 " placeholder="Search">
-        </form>
-
-      </div>
-
-      <div class="col-lg-4 col-sm-6">
-        <form action="" class="form-group form-one">
-          <input type="text" class="form-control py-4 " placeholder="Regular" disabled>
-          <input type="text" class="form-control py-4 mt-3  " placeholder="Birthday">
-        </form>
-      </div>
-
-      <div class="col-lg-4 col-sm-6">
-        <form action="" class="form-group">
-          <input type="text" class="form-control py-4 is-valid" placeholder="Success">
-          <input type="text" class="form-control py-4 mt-3 is-invalid " placeholder="Outline Danger">
-        </form>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- second form -->
-  <section class="jumbotron form-section">
-    <div class="container form">
-      <div class="row">
-        <div class="col">
-          <small>FORM CONTROLS (ALTERNATIVE)</small> <br>
+    <div class="row my-3 form-section-1">
+      <!-- col 1 -->
+      <div class="col-lg-4 col-sm-6 ">
+        <!-- 1 -->
+        <div class="input-group mb-3">
+          <input type="text" class="form-control custom-input" placeholder="Regular">
+        </div>
+        <!-- 2 -->
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fas fa-1x fa-search-plus input-icon"></i></span>
+          </div>
+          <input type="text" class="form-control custom-input border-left-0" placeholder="Birthday">
         </div>
       </div>
+      <!-- col 2 -->
+      <div class="col-lg-4 col-sm-6 ">
+        <!-- 1 -->
+        <div class="input-group mb-3">
+          <input type="text" class="form-control custom-input" placeholder="Regular" disabled>
+        </div>
+        <!-- 2 -->
+        <div class="input-group mb-3">
+          <input type="text" class="form-control custom-input border-right-0 " placeholder="Birthday">
+          <div class="input-group-append ">
+            <span class="input-group-text "> <i class="fas fa-1x fa-search-plus input-icon "></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- col 3 -->
+      <div class="col-lg-4 col-sm-6 ">
+        <!-- 1 -->
+        <div class="input-group mb-3">
+          <input type="text" class="form-control custom-input is-valid" placeholder="Success">
+        </div>
+        <!-- 2 -->
+        <div class="input-group mb-3">
+          <input type="text" class="form-control custom-input is-invalid" placeholder="Error input">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ======2 form======= -->
+  <div class="jumbotron my-5">
+    <div class="container form-section-2">
+      <div class="row px-3">
+        <small>FORM CONTROLS (ALTERNATIVE)</small>
+      </div>
+
       <!-- form row -->
-      <div class="row  my-4">
-        <!-- form -->
-        <div class="col-lg-4 col-sm-6">
-          <form action="" class="form-group form-one ">
-            <input type="text" class="form-control py-4" placeholder="Regular">
-            <input type="text" class="form-control py-4 mt-3" placeholder="Search">
-          </form>
-
+      <div class="row my-3 form-section">
+        <!-- col 1 -->
+        <div class="col-lg-4 col-sm-6 ">
+          <!-- 1 -->
+          <div class="input-group mb-3">
+            <input type="text" class="form-control custom-input" placeholder="Regular">
+          </div>
+          <!-- 2 -->
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"> <i class="fas fa-1x fa-search-plus input-icon "></i></span>
+            </div>
+            <input type="text" class="form-control custom-input border-left-0" placeholder="Birthday">
+          </div>
+        </div>
+        <!-- col 2 -->
+        <div class="col-lg-4 col-sm-6 ">
+          <!-- 1 -->
+          <div class="input-group mb-3">
+            <input type="text" class="form-control custom-input" placeholder="Regular" disabled>
+          </div>
+          <!-- 2 -->
+          <div class="input-group mb-3">
+            <input type="text" class="form-control custom-input border-right-0" placeholder="Birthday">
+            <div class="input-group-append">
+              <span class="input-group-text"> <i class="fas fa-1x fa-search-plus input-icon "></i></span>
+            </div>
+          </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6">
-          <form action="" class="form-group form-one">
-            <input type="text" class="form-control py-4   text-success" placeholder="Regular" disabled>
-            <input type="text" class="form-control py-4 mt-3 text-danger  " placeholder="Birthday">
-          </form>
+        <!-- col 3 -->
+        <div class="col-lg-4 col-sm-6 ">
+          <!-- 1 -->
+          <div class="input-group mb-3">
+            <input type="text" class="form-control custom-input is-valid" placeholder="Success">
+          </div>
+          <!-- 2 -->
+          <div class="input-group mb-3">
+            <input type="text" class="form-control custom-input is-invalid" placeholder="Error input">
+          </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6">
-          <form action="" class="form-group">
-            <input type="text" class="form-control py-4 is-valid" placeholder="Success">
-            <input type="text" class="form-control py-4 mt-3  is-invalid" placeholder="Error Input">
-          </form>
-        </div>
-      </div>
 
-    </div>
-  </section>
-
-  <!-- checkbox section -->
-  <div class="container my-5">
-    <div class="row ">
-      <div class="col-lg-3 col-sm-6">
-        <small class="text-uppercase  font-weight-normal ">CHECKBOXES</small><br><br>
-        <input type="checkbox"> &nbsp; Checked <br><br>
-        <input type="checkbox" checked> &nbsp; Unchecked<br><br>
-        <input type="checkbox" disabled>&nbsp; Disabled Unchecked<br><br>
-        <input type="checkbox" checked disabled>&nbsp; Disabled Checked <br><br>
-
-      </div>
-
-      <div class="col-lg-3 col-sm-6">
-        <small class="text-uppercase  font-weight-normal ">RADIOS</small><br><br>
-        <input type="radio"> &nbsp; Checked <br><br>
-        <input type="radio" checked> &nbsp; Unchecked<br><br>
-        <input type="radio" disabled>&nbsp; Disabled Unchecked<br><br>
-        <input type="radio" checked disabled>&nbsp; Disabled Checked <br><br>
-      </div>
-
-      <div class="col-lg-3 col-sm-6">
-        <small class="text-uppercase  font-weight-normal ">TOGGLE BUTTONS</small><br><br>
-        <!-- checkbox custom -->
-        <div class="form-check form-switch ml-4">
-          <input class="form-check-input" type="checkbox">
-        </div> <br>
-        <div class="form-check form-switch ml-4">
-          <input class="form-check-input" type="checkbox">
-        </div>
-
-      </div>
-
-      <div class="col-lg-3 col-sm-6">
-        <small class="text-uppercase  font-weight-normal ">SLIDERS</small><br><br>
-        <input type="range"><br><br>
-        <input type="range">
       </div>
     </div>
   </div>
-  <!-- menu -->
-  <div class="container">
-    <div class="row  align-items-end my-5">
-      <div class="col-lg-6  ">
-        <h3 class="text-capitalize color-success">menu</h3>
-        <small class="pt-5 pb-5">WITH TEXT</small> <br><br>
-        <!-- navbar first -->
-        <nav class="navbar navbar-expand-lg py-4 rounded   navbar-light bg-info ">
-          <a href="" class="navbar-brand text-uppercase color-neutral">menu</a>
-          <!-- toggle icon -->
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbarnav1">
-            <span class="navbar-toggler-icon "></span>
-          </button>
-          <div id="mynavbarnav1" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a href="#" class="nav-link text-capitalize color-neutral">discover</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-capitalize color-neutral">profile</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-capitalize color-neutral">setting</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+  <!-- ========checkbox section========== -->
 
+  <div class="container ">
+    <div class="row">
+
+      <div class="col-lg-3 mb-lg-0 mb-4  ">
+        <small class="text-uppercase font-weight-bold py-3 d-block">CHECKBOXES</small>
+        <!-- 1 -->
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" name="" id="customcheck-1" class="custom-control-input">
+          <label for="customcheck-1" class="custom-control-label text-muted">Unchecked</label>
+        </div>
+        <!-- 2 -->
+        <div class="custom-control custom-checkbox py-3">
+          <input type="checkbox" id="customcheck-2" class="custom-control-input" checked>
+          <label for="customcheck-2" class="custom-control-label text-muted">Checked</label>
+        </div>
+        <!-- 3 -->
+        <div class="custom-control custom-checkbox pb-3">
+          <input type="checkbox" id="customcheck-3" class="custom-control-input" disabled>
+          <label for="customcheck-3" class="custom-control-label text-muted">Disabled Unchecked
+          </label>
+        </div>
+        <!-- 4 -->
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" id="customcheck-4" class="custom-control-input" checked disabled>
+          <label for="customcheck-4" class="custom-control-label text-muted">Disabled Checked</label>
+        </div>
       </div>
-      <!-- navbar second -->
-      <div class="col-lg-6">
-        <small class="text-uppercase">WITH icons</small> <br><br>
-        <!-- navbar first -->
-        <nav class="navbar navbar-expand-lg py-4 rounded navbar-light bg-success  ">
-          <a href="" class="navbar-brand text-uppercase color-neutral">menu</a>
-          <!-- toggle icon -->
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbarnav">
-            <span class="navbar-toggler-icon "></span>
-          </button>
-          <div id="mynavbarnav" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a href="#" class="nav-link text-capitalize color-neutral">
-                  <i class="fas fa-heart"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-capitalize color-neutral">
-                  <i class="fas fa-bullhorn"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-capitalize color-neutral">
-                  <i class="fas fa-cog"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+
+      <!-- radio -->
+      <div class="col-lg-3  mb-lg-0 mb-4 ">
+
+        <small class="text-uppercase font-weight-bold py-3 d-block">RADIOS</small>
+        <!-- 1 -->
+        <div class="custom-control custom-radio">
+          <input type="radio" name="" id="customradio-1" class="custom-control-input">
+          <label for="customradio-1" class="custom-control-label text-muted">Unchecked</label>
+        </div>
+        <!-- 2 -->
+        <div class="custom-control custom-radio py-3">
+          <input type="radio" id="customradio-2" class="custom-control-input" checked>
+          <label for="customradio-2" class="custom-control-label text-muted">Checked</label>
+        </div>
+        <!-- 3 -->
+        <div class="custom-control custom-radio pb-3">
+          <input type="radio" id="customcheck-3" class="custom-control-input" disabled>
+          <label for="customcheck-3" class="custom-control-label text-muted">Disabled Unchecked
+          </label>
+        </div>
+        <!-- 4 -->
+        <div class="custom-control custom-radio">
+          <input type="radio" id="customcheck-4" class="custom-control-input" checked disabled>
+          <label for="customcheck-4" class="custom-control-label text-muted">Disabled Checked</label>
+        </div>
 
       </div>
 
+      <!-- switch -->
+      <div class="col-lg-3  mb-lg-0 mb-4">
+        <small class="text-uppercase font-weight-bold py-3 d-block">TOGGLE BUTTONS</small>
+        <!-- 1 -->
+        <div class="custom-control custom-switch">
+          <input type="radio" name="" id="customswitch-1" class="custom-control-input ">
+          <label for="customswitch-1" class="custom-control-label text-muted text-muted">Unchecked</label>
+        </div>
+        <!-- 2 -->
+        <div class="custom-control custom-switch py-3">
+          <input type="radio" id="customswitch-2" class="custom-control-input" checked>
+          <label for="customswitch-2" class="custom-control-label text-muted text-muted">Checked</label>
+        </div>
+      </div>
+
+      <!-- slider -->
+      <div class="col-lg-3 mb-lg-0 mb-4 ">
+        <small class="text-uppercase font-weight-bold py-3 d-block">SLIDERS</small>
+        <!-- 1 -->
+        <div class="custom-control custom-range">
+          <input type="range" name="" id="customrange-1" class="form-control-range">
+        </div>
+        <!-- 2 -->
+        <div class="custom-control custom-range py-3">
+          <input type="range" id="customrange-2" class="form-control-range" checked>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!-- Navsbars -->
-
-  <div class="container">
+  <!--======== menu======== -->
+  <div class="container  my-5">
     <div class="row">
       <div class="col">
-        <span class="display-6">Navbars</span>
+        <h3 class="h4  color-success text-capitalize">Menu</h3>
       </div>
     </div>
-  </div>
-  <!-- navbar 1 -->
-  <section class=" background-primary custom-nav">
-    <div class="container    mt-5">
-      <div class="row">
-        <div class="col">
-          <nav class="navbar navbar-expand-lg navbar-dark background-primary ">
-            <a href="#" class="navbar-brand">PRIMARY COLOR </a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#mynav1">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="mynav1" class="collapse navbar-collapse">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-capitalize color-neutral">
-                    <i class="fas fa-heart"></i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-capitalize color-neutral">
-                    <i class="fas fa-bullhorn"></i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-capitalize color-neutral">
-                    <i class="fas fa-cog"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- navbar 2 -->
-  <section class=" background-success custom-nav">
-    <div class="container    mt-5">
-      <div class="row">
-        <div class="col">
-          <nav class="navbar navbar-expand-lg navbar-dark background-success ">
-            <a href="#" class="navbar-brand">SUCCESS COLOR </a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#mynav2">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="mynav2" class="collapse navbar-collapse">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a href="#" class="nav-link ">Discover</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">Profile</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">Setting</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- navbar 3 -->
-  <section class=" background-danger custom-nav">
-    <div class="container    mt-5">
-      <div class="row">
-        <div class="col">
-          <nav class="navbar navbar-expand-lg navbar-dark background-danger ">
-            <a href="#" class="navbar-brand">DANGER COLOR </a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#mynav3">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="mynav3" class="collapse navbar-collapse">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-capitalize color-neutral">
-                    <i class="fas fa-heart"></i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-capitalize color-neutral">
-                    <i class="fas fa-bullhorn"></i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-capitalize color-neutral">
-                    <i class="fas fa-cog"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- navbar 4 -->
-  <section class=" background-warning custom-nav">
-    <div class="container    mt-5">
-      <div class="row">
-        <div class="col">
-          <nav class="navbar navbar-expand-lg navbar-dark background-warning ">
-            <a href="#" class="navbar-brand">WARNING COLOR </a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#mynav4">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="mynav4" class="collapse navbar-collapse">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-capitalize color-neutral">
-                    <i class="fab fa-facebook-square"></i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-capitalize color-neutral">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-capitalize color-neutral">
-                    <i class="fab fa-google-plus-g"></i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-capitalize color-neutral">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- navbar 5 -->
-  <section class=" background-info custom-nav">
-    <div class="container    mt-5">
-      <div class="row">
-        <div class="col">
-          <nav class="navbar navbar-expand-lg navbar-dark background-info ">
-            <a href="#" class="navbar-brand">INFO COLOR </a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#mynav5">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="mynav5" class="collapse navbar-collapse">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-capitalize color-neutral">
-                    <i class="fab fa-facebook-square"></i> facebook
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-capitalize color-neutral">
-                    <i class="fab fa-twitter"></i> twitter
-                  </a>
-                </li>
-
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-capitalize color-neutral">
-                    <i class="fab fa-instagram"></i> instagram
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Tabs section -->
-  <div class="container my-5 tabs">
-    <div class="row  my-3">
-      <div class="col ">
-        <h3 class="text-uppercase color-success display-7">tabs</h3>
-        <small class="text-uppercase  ">with icons</small><br><br>
-      </div>
-    </div>
-
-    <div class="row ">
-
-      <div class="col-lg-6 ">
-        <!-- nestinng cols -->
-        <div class="row">
-          <div class="col-md-4  ">
-            <button
-              class="btn btn-block  button-primary font-weight-light   text-neutral display-4 btn-transform mt-md-0 mt-3 ">
-              <i class="fas fa-cloud-download-alt"></i> HOME
-            </button>
-          </div>
-
-          <div class="col-md-4 col-12">
-            <button
-              class="btn btn-block  button-neutral font-weight-light   text-primary display-4 btn-transform mt-md-0  mt-3">
-              <i class="fas fa-bell"></i> profile
-            </button>
-          </div>
-
-          <div class="col-md-4 col-12">
-            <button
-              class="btn btn-block  button-neutral font-weight-light    text-primary  btn-transform mt-md-0  mt-3">
-              <i class="far fa-calendar-alt"></i> message
-            </button>
-          </div>
-        </div>
-        <div class="row   my-4 ">
-          <div class="col   inner-section ">
-            <p class="font-weight-light py-4 text-dark px-3">Raw denim you probably haven't heard of them jean shorts
-              Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg
-              carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.<br><br>
-              Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro
-              synth master cleanse.</p>
-          </div>
-        </div>
-      </div>
-      <!-- 2 -->
-      <div class="col-lg-6  ">
-
-        <!-- nestinng cols -->
-        <div class="row">
-          <div class="col-md-4 col-12 ">
-            <button
-              class="btn btn-block  button-primary font-weight-light   text-neutral display-4 btn-transform mt-md-0 mt-3 ">
-              HOME
-            </button>
-          </div>
-
-          <div class="col-md-4 col-12">
-            <button
-              class="btn btn-block  button-neutral font-weight-light   text-primary display-4 btn-transform mt-md-0  mt-3">
-              profile
-            </button>
-          </div>
-
-          <div class="col-md-4 col-12">
-            <button
-              class="btn btn-block  button-neutral font-weight-light    text-primary  btn-transform mt-md-0  mt-3">
-              message
-            </button>
-          </div>
-
-        </div>
-        <div class="row  my-4  ">
-          <div class="col   inner-section ">
-            <p class="font-weight-light py-4 text-dark px-3">Raw denim you probably haven't heard of them jean shorts
-              Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg
-              carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.<br><br>
-              Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro
-              synth master cleanse.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- *****************8progress bars ****************** -->
-
-  <div class="container  progress-section">
     <div class="row">
+      <!-- col 1 -->
       <div class="col-lg-6">
-        <h3 class="text-capitalize color-success">progress bars</h3><br>
+        <small class="pb-3 d-block">WITH TEXT</small>
+        <!-- inner container -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded">
+          <div class="container">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-inner-primary"
+              aria-controls="nav-inner-primary" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav-inner-primary">
+              <div class="navbar-collapse-header">
+                <div class="row">
+                  <div class="col-6 collapse-brand">
+                    <a href="./index.html">
+                      <img src="./assets/images/brand/blue.png">
+                    </a>
+                  </div>
+                  <div class="col-6 collapse-close">
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-inner-primary"
+                      aria-controls="nav-inner-primary" aria-expanded="false" aria-label="Toggle navigation">
+                      <span></span>
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <ul class="navbar-nav ml-lg-auto">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Discover </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Profile</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link text-white" href="#" id="nav-inner-primary_dropdown_1" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav-inner-primary_dropdown_1">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- col 2 -->
+      <div class="col-lg-6">
+        <small class="pb-3 d-block ">WITH TEXT</small>
+        <!-- inner container -->
+        <nav class="navbar navbar-expand-lg navbar-dark background-success rounded">
+          <div class="container">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-inner-success"
+              aria-controls="nav-inner-success" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav-inner-success">
+              <div class="navbar-collapse-header">
+                <div class="row">
+                  <div class="col-6 collapse-brand">
+                    <a href="./index.html">
+                      <img src="./assets/images/brand/blue.png">
+                    </a>
+                  </div>
+                  <div class="col-6 collapse-close">
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-inner-success"
+                      aria-controls="nav-inner-success" aria-expanded="false" aria-label="Toggle navigation">
+                      <span></span>
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <ul class="navbar-nav ml-lg-auto ">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#"> <i class="fas fa-heart"></i> </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#"><i class="fas fa-bell"></i></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link text-white" href="#" id="nav-inner-primary_dropdown_1" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cog"></i></a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav-inner-success_dropdown_1">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!--========= Navsbars========= -->
+  <div class="container  my-4">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="h2 color-dark text-capitalize"><span>navbars</span></h2>
+      </div>
+    </div>
+  </div>
+  <!-- =====navbar 1 =====-->
+  <nav class="navbar navbar-expand-lg navbar-dark background-dark my-3 ">
+    <div class="container">
+      <a class="navbar-brand" href="#">DEFAULT COLOR
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-inner-dark"
+        aria-controls="nav-inner-dark" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav-inner-dark">
+        <div class="navbar-collapse-header">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="./index.html">
+                <img src="./assets/images/brand/blue.png">
+              </a>
+            </div>
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-inner-dark"
+                aria-controls="nav-inner-dark" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"><i class="fas fa-heart"></i><span class="d-lg-none">
+                Discover</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"><i class="fas fa-bell"></i><span class="d-lg-none">
+                Profile</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white" href="#" id="nav-inner-dark_dropdown_1" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"><i class="fas fa-cog"></i><span class="d-lg-none">
+                Setting</span></a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav-inner-dark_dropdown_1">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- =====navbar 2 =====-->
+  <nav class="navbar navbar-expand-lg navbar-dark background-primary my-3 ">
+    <div class="container">
+      <a class="navbar-brand" href="#">PRIMARY COLOR
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-inner-primary2"
+        aria-controls="nav-inner-primary2" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav-inner-primary2">
+        <div class="navbar-collapse-header">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="./index.html">
+                <img src="./assets/images/brand/blue.png">
+              </a>
+            </div>
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-inner-primary2"
+                aria-controls="nav-inner-primary2" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"> Discover
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"> Profile</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white" href="#" id="nav-inner-primary2_dropdown_1" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Settings</a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav-inner-primary2_dropdown_1">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =====navbar 3 =====-->
+  <nav class="navbar navbar-expand-lg navbar-dark background-success my-3 ">
+    <div class="container">
+      <a class="navbar-brand" href="#">SUCCESS COLOR
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-inner-success2"
+        aria-controls="nav-inner-success2" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav-inner-success2">
+        <div class="navbar-collapse-header">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="./index.html">
+                <img src="./assets/images/brand/blue.png">
+              </a>
+            </div>
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-inner-success2"
+                aria-controls="nav-inner-success2" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"><i class="fas fa-heart"></i><span class="d-lg-none"> Favorite</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"><i class="fas fa-bell"></i><span class="d-lg-none"> Another
+                action</span> </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white" href="#" id="nav-inner-success2_dropdown_1" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cog"></i><span
+                class="d-lg-none"> Setting</span></a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav-inner-success2_dropdown_1">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- =====navbar 4 =====-->
+  <nav class="navbar navbar-expand-lg navbar-dark background-danger my-3 ">
+    <div class="container">
+      <a class="navbar-brand" href="#">DANGER COLOR
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-inner-danger"
+        aria-controls="nav-inner-danger" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav-inner-danger">
+        <div class="navbar-collapse-header">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="./index.html">
+                <img src="./assets/images/brand/blue.png">
+              </a>
+            </div>
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-inner-danger"
+                aria-controls="nav-inner-danger" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"><i class="fab fa-facebook-square"></i><span class="d-lg-none">
+                Facebook</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"><i class="fab fa-twitter"></i><span class="d-lg-none">
+                twitter</span> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"><i class="fab fa-google-plus-g"></i><span class="d-lg-none">
+                google</span> </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white" href="#" id="nav-inner-danger_dropdown_1" role="button"
+               aria-haspopup="true" aria-expanded="false"><i class="fab fa-instagram"></i><span
+                class="d-lg-none"> Instagram</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- =====navbar 5 =====-->
+  <nav class="navbar navbar-expand-lg navbar-dark background-warning my-3 ">
+    <div class="container">
+      <a class="navbar-brand" href="#">DANGER COLOR
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-inner-warning"
+        aria-controls="nav-inner-warning" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav-inner-warning">
+        <div class="navbar-collapse-header">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="./index.html">
+                <img src="./assets/images/brand/blue.png">
+              </a>
+            </div>
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-inner-warning"
+                aria-controls="nav-inner-warning" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"><i class="fab fa-facebook-square"></i><span class="d-lg-none">
+                Facebook</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"><i class="fab fa-twitter"></i><span class="d-lg-none">
+                twitter</span> </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white" href="#" id="nav-inner-warning_dropdown_1" role="button"
+               aria-haspopup="true" aria-expanded="false"><i class="fab fa-pinterest"></i><span
+                class="d-lg-none"> Pinterest</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- =====navbar 6 =====-->
+  <nav class="navbar navbar-expand-lg navbar-dark background-info my-3 ">
+    <div class="container">
+      <a class="navbar-brand" href="#">INFO COLOR
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-inner-info"
+        aria-controls="nav-inner-info" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav-inner-info">
+        <div class="navbar-collapse-header">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="./index.html">
+                <img src="./assets/images/brand/blue.png">
+              </a>
+            </div>
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-inner-info"
+                aria-controls="nav-inner-info" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"><i class="fab fa-facebook-square"></i><span> Facebook</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"><i class="fab fa-twitter"></i><span> twitter</span> </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white" href="#" id="nav-inner-info_dropdown_1" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"><i class="fab fa-instagram"></i><span> Instagram</span></a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav-inner-info_dropdown_1">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ========Tabs section========= -->
+  <div class="container my-5  tabs">
+    <h3 class="h4  color-success text-capitalize">tabs</h3>
+    <!-- tabs -->
+    <div class="row justify-content-around ">
+      <div class="col-lg-6 ">
+        <small class="text-uppercase py-4 d-block ">with icons</small>
+        <!-- tab 1 -->
+        <ul class="nav nav-pills nav-justified mb-3 " id="pills-tab" role="tablist">
+          <li class="nav-item " role="presentation">
+            <a class="nav-link  btn custom-btn  text-capitalize active " id="pills-home-tab"
+              data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"> <i
+                class="fas fa-cloud-download-alt px-2"></i>Home</a>
+          </li>
+          <li class="nav-item mx-3" role="presentation">
+            <a class="nav-link btn custom-btn  text-capitalize " id="pills-profile-tab" data-toggle="pill"
+              href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"> <i
+                class="fas fa-bell px-2"></i> Profile</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link btn custom-btn   text-capitalize" id="pills-contact-tab" data-toggle="pill"
+              href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><i
+                class="fas fa-calendar-alt px-2"></i> Messages</a>
+          </li>
+        </ul>
+          <!-- tab content -->
+        <div class="tab-content  p-4" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Raw
+            denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+            master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro
+            keffiyeh dreamcatcher synth <br><br>
+            Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+            master cleanse.
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Cosby
+            sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan
+            aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Raw denim
+            you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master
+            cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh
+            dreamcatcher synth.</div>
+        </div>
+
+      </div>
+
+      <!-- tab 2 -->
+      <div class="col-lg-6 mt-lg-0 mt-5 ">
+        <small class="text-uppercase py-4 d-block ">with texts</small>
+        <ul class="nav nav-pills nav-justified mb-3 " id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active btn custom-btn  text-capitalize" id="pills-home-tab" data-toggle="pill"
+              href="#pills-home-2" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+          </li>
+          <li class="nav-item mx-3" role="presentation">
+            <a class="nav-link btn custom-btn " id="pills-profile-tab" data-toggle="pill" href="#pills-profile-2"
+              role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link btn  custom-btn text-capitalize" id="pills-contact-tab" data-toggle="pill"
+              href="#pills-message" role="tab" aria-controls="pills-contact" aria-selected="false">messages</a>
+          </li>
+        </ul>
+        <div class="tab-content  p-4" id="pills-tabContent">
+          <div class="tab-pane fade show active font-weight-light" id="pills-home-2" role="tabpanel"
+            aria-labelledby="pills-home-tab">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt
+            tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan
+            helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. <br><br>
+            Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+            master cleanse.</div>
+          <div class="tab-pane fade" id="pills-profile-2" role="tabpanel" aria-labelledby="pills-profile-tab">Cosby
+            sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan
+            aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
+          <div class="tab-pane fade" id="pills-message" role="tabpanel" aria-labelledby="pills-contact-tab">Raw denim
+            you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master
+            cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh
+            dreamcatcher synth.</div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+
+  <!-- =========progress bars ========== -->
+
+  <div class="container  progress-section ">
+    <div class="row">
+      <div class="col-lg-6 ">
+        <h3 class="h4  color-success text-capitalize">progress bars</h3>
+         <br>
         <span class="font-weight-lighter color-primary progress-tittle ">TASK COMPLETED</span>
         <span class="font-weight-lighter float-right ">40%</span>
         <div class="progress mt-2 " style="height: 9px;">
           <div class="progress-bar bg-dark" style="width: 40%;"></div>
         </div> <br>
-
         <span class="font-weight-lighter color-primary progress-tittle ">TASK COMPLETED</span>
-        <span class="font-weight-lighter float-right ">40%</span>
+        <span class="font-weight-lighter float-right ">60%</span>
         <div class="progress mt-2" style="height:9px ;">
           <div class="progress-bar" style="width: 60%;"></div>
         </div>
 
       </div>
-
-      <div class="col-lg-6 mt-lg-0 mt-4 ">
-        <h3 class="text-capitalize color-success pl-lg-5">pagination</h3><br>
-        <nav class="pl-lg-5">
+        <!-- =====pagination====== -->
+      <div class="col-lg-6 mt-lg-0 ">
+        <h3 class="h4  color-success text-capitalize pl-lg-5">pagination</h3>
+        <nav class="pl-lg-5 mt-5">
           <ul class="pagination ">
             <li class="page-item ">
-              <a href="" class="page-link rounded-circle">1</a>
+              <a href="#" class="page-link rounded-circle">1</a>
             </li>
-            <li class="page-item ml-3">
-              <a href="" class="page-link bg-primary text-white  rounded-circle">2</a>
+            <li class="page-item ml-2">
+              <a href="#" class="page-link bg-primary text-white  rounded-circle">2</a>
             </li>
-            <li class="page-item ml-3">
-              <a href="" class="page-link  rounded-circle">3</a>
+            <li class="page-item ml-2">
+              <a href="#" class="page-link  rounded-circle">3</a>
             </li>
-            <li class="page-item ml-3">
-              <a href="" class="page-link  rounded-circle">4</a>
+            <li class="page-item ml-2">
+              <a href="#" class="page-link  rounded-circle">4</a>
             </li>
-            <li class="page-item ml-3">
-              <a href="" class="page-link  rounded-circle">5</a>
+            <li class="page-item ml-2">
+              <a href="#" class="page-link  rounded-circle">5</a>
             </li>
           </ul>
 
-        </nav> <br>
-
-        <nav class="pl-lg-5">
+        </nav> 
+        <nav class="pl-lg-5 mt-3">
           <ul class="pagination ">
             <li class="page-item ">
-              <a href="" class="page-link rounded-circle"> > </a>
+              <a href="#" class="page-link rounded-circle"><i class="fa fa-angle-left"></i></a>
             </li>
-            <li class="page-item ml-3">
-              <a href="" class="page-link    rounded-circle">1</a>
+            <li class="page-item ml-2">
+              <a href="#" class="page-link  rounded-circle">1</a>
             </li>
-            <li class="page-item ml-3">
-              <a href="" class="page-link  rounded-circle">2</a>
+            <li class="page-item ml-2">
+              <a href="#" class="page-link rounded-circle">2</a>
             </li>
-            <li class="page-item ml-3">
-              <a href="" class="page-link bg-primary text-white  rounded-circle">3</a>
+            <li class="page-item ml-2">
+              <a href="#" class="page-link bg-primary text-white  rounded-circle">3</a>
             </li>
-            <li class="page-item ml-3">
-              <a href="" class="page-link  rounded-circle">4</a>
+            <li class="page-item ml-2">
+              <a href="#" class="page-link  rounded-circle">4</a>
             </li>
-            <li class="page-item ml-3">
-              <a href="" class="page-link  rounded-circle">5</a>
+            <li class="page-item ml-2">
+              <a href="#" class="page-link  rounded-circle">5</a>
             </li>
-            <li class="page-item ml-3">
-              <a href="" class="page-link  rounded-circle"> > </a>
+            <li class="page-item ml-2">
+              <a href="#" class="page-link  rounded-circle"><i class="fa fa-angle-right"></i></a>
             </li>
           </ul>
 
         </nav>
-
-
       </div>
     </div>
   </div>
 
-  <!-- navigations & pills -->
+  <!-- =========navigations & pills======== -->
 
   <div class="container  my-5">
     <div class="row">
       <!-- navigation pills -->
       <div class="col-lg-6">
-        <h3 class="text-capitalize color-success ">navigation pills</h3><br>
-
-        <span class="pills bg-primary">
-          <i class="fas fa-atom  color-neutral"></i>
+        <h3 class="h4  color-success text-capitalize ">navigation pills</h3>
+         <br>
+        <span class="pills bg-primary ">
+          <i class="fas fa-atom  color-neutral "></i>
         </span>
-        <span class="pills mx-3">
-          <i class="fas fa-comment text-primary"></i>
+        <span class="pills mx-3 ">
+          <i class="fas fa-comment text-primary "></i>
         </span>
         <span class="pills">
           <i class="fas fa-cloud-download-alt text-primary"></i>
@@ -745,133 +1035,136 @@
       </div>
       <!-- labels -->
       <div class="col-lg-6 mt-lg-0 mt-4">
-        <h3 class="text-capitalize color-success pl-lg-5">labels</h3><br><br>
-        <span class="font-weight-lighter color-primary progress-tittle font-weight-bold ml-lg-5 ">primary </span>
-        <span class="font-weight-lighter color-success progress-tittle font-weight-bold ">success</span>
-        <span class="font-weight-lighter color-danger progress-tittle font-weight-bold">danger</span>
-        <span class="font-weight-lighter color-warning progress-tittle font-weight-bold">warning</span>
-        <span class="font-weight-lighter color-info progress-tittle font-weight-bold">info</span>
+        <h3 class="h4  color-success text-capitalize pl-lg-5">labels</h3>
+        <br>
+        <span class="font-weight-lighter color-primary progress-tittle-1 font-weight-bold ml-lg-5 ">primary </span>
+        <span class="font-weight-lighter color-success progress-tittle-2 font-weight-bold ml-1 "> success</span>
+        <span class="font-weight-lighter color-danger progress-tittle-3 font-weight-bold">danger</span>
+        <span class="font-weight-lighter color-warning progress-tittle-4 font-weight-bold">warning</span>
+        <span class="font-weight-lighter color-info progress-tittle-5 font-weight-bold">info</span>
       </div>
     </div>
   </div>
 
-  <!-- Alerts -->
+  <!-- =========Alerts========= -->
 
   <div class="container">
+    <div class="row mb-4">
+      <div class="col">
+        <h3>Alerts</h3>
+      </div>
+    </div>
     <div class="row">
       <div class="col">
-        <span class="display-6">Alerts</span>
-      </div>
-    </div>
-    <!-- 1 alert -->
-    <div class="row border background-success text-white rounded-lg  my-4">
-      <div class="col p-3">
-        <i class="fas fa-thumbs-up float-left pt-1 pl-lg-2"></i>
-        <span class="pl-md-5 pl-2"> <span class="font-weight-bold">Success!</span>This is a success alert—check it
-          out!</span>
-        <i class="fas fa-times float-right pr-lg-2 "></i>
-      </div>
-    </div>
-    <!-- 2 alert -->
-    <div class="row border background-info text-white rounded-lg  my-4">
-      <div class="col p-3">
-        <i class="fas fa-bell float-left pt-1 pl-lg-2"></i>
-        <span class="pl-md-5 pl-2"> <span class="font-weight-bold">Success!</span>This is a success alert—check it
-          out!</span>
-        <i class="fas fa-times float-right pr-lg-2 "></i>
-      </div>
-    </div>
-    <!-- 3 alert -->
-    <div class="row border background-warning text-white rounded-lg  my-4">
-      <div class="col p-3">
-        <i class="fas fa-bell float-left pt-1 pl-lg-2"></i>
-        <span class="pl-md-5 pl-2"> <span class="font-weight-bold">Success!</span>This is a success alert—check it
-          out!</span>
-        <i class="fas fa-times float-right pr-lg-2 "></i>
-      </div>
-    </div>
-    <!-- 4 alert -->
-    <div class="row border background-danger text-white rounded-lg  my-4">
-      <div class="col p-3">
-        <i class="far fa-life-ring float-left pt-1 pl-lg-2"></i>
-        <span class="pl-md-5 pl-2"> <span class="font-weight-bold">Success!</span>This is a success alert—check it
-          out!</span>
-        <i class="fas fa-times float-right pr-lg-2 "></i>
-      </div>
-    </div>
+        <!-- alert 1 -->
+        <div class="alert background-success text-white p-3">
+          <i class="fas fa-1x fa-thumbs-up "></i>
+          <span class="pl-4"><b>Success!</b>This is a success alert—check it out!</span>
+          <button type="button" class="close text-white" data-dismiss="alert" aria-label="close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
 
+        <!-- alert 2 -->
+        <div class="alert background-info text-white p-3">
+          <i class="fas fa-bell"></i>
+          <span class="pl-4"><b>Info!</b> This is an info alert—check it out!</span>
+          <button type="button" class="close text-white" data-dismiss="alert" aria-label="close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
 
+        <!-- alert 3 -->
+        <div class="alert background-warning text-white p-3">
+          <i class="fas fa-bell"></i>
+          <span class="pl-4"> <b>Warning!</b> This is a warning alert—check it out!</span>
+          <button type="button" class="close text-white" data-dismiss="alert" aria-label="close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <!-- alert 4 -->
+        <div class="alert background-danger text-white p-3">
+          <i class="far fa-life-ring "></i>
+          <span class="pl-4"> <b>Danger!</b> This is an error alert—check it out!</span>
+          <button type="button" class="close text-white" data-dismiss="alert" aria-label="close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
   </div>
-
-  <!-- typography -->
+  <!-- ========typography========= -->
   <div class="container  my-5">
     <div class="row">
       <div class="col">
-        <h1 class="font-weight-light">Typography</h1>
+        <h2 class="h2"><span>Typography</span></h2>
       </div>
     </div>
     <div class="row my-4">
       <div class="col">
-        <h4 class="font-weight-bold color-success">Headings</h4>
+        <h3 class="h4  color-success text-capitalize ">Headings</h3>
       </div>
     </div>
 
     <div class="row  align-items-center mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">DISPLAY 1</small>
+        <small class="text-muted ">HEADING 1</small>
       </div>
       <div class="col-sm-9">
-        <h1 class="font-weight-lighter">Argon Design System</h1>
-      </div>
-    </div>
-
-
-    <div class="row  align-items-center mb-3">
-      <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">DISPLAY 2</small>
-      </div>
-      <div class="col-sm-9">
-        <h2 class="font-weight-lighter">Argon Design System</h2>
+        <h1 class="h1">Argon Design System</h1>
       </div>
     </div>
 
 
     <div class="row  align-items-center mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">DISPLAY 3</small>
+        <small class="text-muted  ">HEADING 2</small>
       </div>
       <div class="col-sm-9">
-        <h3 class="font-weight-lighter">Argon Design System</h3>
+        <h2 class="h2">Argon Design System</h2>
       </div>
     </div>
 
 
     <div class="row  align-items-center mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">DISPLAY 4</small>
+        <small class="text-muted ">HEADING 3</small>
       </div>
       <div class="col-sm-9">
-        <h4 class="font-weight-lighter">Argon Design System</h4>
+        <h3 class="h3">Argon Design System</h3>
       </div>
     </div>
 
 
     <div class="row  align-items-center mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">DISPLAY 5</small>
+        <small class="text-muted ">HEADING 4</small>
       </div>
       <div class="col-sm-9">
-        <h5 class="font-weight-lighter">Argon Design System</h5>
+        <h4 class="h4">Argon Design System</h4>
+      </div>
+    </div>
+
+
+    <div class="row  align-items-center mb-3">
+      <div class="col-sm-3">
+        <small class="text-muted ">HEADING 5</small>
+      </div>
+      <div class="col-sm-9">
+        <h5 class="h5">Argon Design System</h5>
       </div>
     </div>
 
 
     <div class="row  align-items-center">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">DISPLAY 6</small>
+        <small class="text-muted ">HEADING 6</small>
       </div>
       <div class="col-sm-9">
-        <h6 class="font-weight-lighter">Argon Design System</h6>
+        <h6 class="h6">Argon Design System</h6>
       </div>
     </div>
 
@@ -882,358 +1175,456 @@
   <div class="container">
     <div class="row my-4">
       <div class="col">
-        <h4 class="font-weight-bold color-success">Display titles</h4>
+        <h3 class="h4  color-success text-capitalize ">Display titles</h3>      
       </div>
     </div>
 
     <div class="row  align-items-center mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">DISPLAY 1</small>
+        <small class="text-muted ">DISPLAY 1</small>
       </div>
       <div class="col-sm-9">
-        <h1>Argon Design System</h1>
-      </div>
-    </div>
-
-
-    <div class="row  align-items-center mb-3">
-      <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">DISPLAY 2</small>
-      </div>
-      <div class="col-sm-9">
-        <h2>Argon Design System</h2>
+        <h1 class="theme-display-1">Argon Design System</h1>
       </div>
     </div>
 
 
     <div class="row  align-items-center mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">DISPLAY 3</small>
+        <small class="text-muted ">DISPLAY 2</small>
       </div>
       <div class="col-sm-9">
-        <h3>Argon Design System</h3>
+        <h2 class="theme-display-2">Argon Design System</h2>
       </div>
     </div>
 
 
     <div class="row  align-items-center mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">DISPLAY 4</small>
+        <small class="text-muted">DISPLAY 3</small>
       </div>
       <div class="col-sm-9">
-        <h4>Argon Design System</h4>
-      </div>
-    </div>
-
-
-    <div class="row  align-items-center mb-3">
-      <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">DISPLAY 5</small>
-      </div>
-      <div class="col-sm-9">
-        <h5>Argon Design System</h5>
+        <h3 class="theme-display-3">Argon Design System</h3>
       </div>
     </div>
 
 
     <div class="row  align-items-center">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">DISPLAY 6</small>
+        <small class="text-muted ">DISPLAY 4</small>
       </div>
       <div class="col-sm-9">
-        <h6>Argon Design System</h6>
+        <h4 class="theme-display-4">Argon Design System</h4>
       </div>
     </div>
   </div>
 
-  <!-- Specialized titles -->
+  <!-- ==========Specialized titles========== -->
   <div class="container my-5 ">
 
     <div class="row my-4">
       <div class="col">
-        <h4 class="font-weight-bold color-success">Specialized titles</h4>
+        <h3 class="h4  color-success text-capitalize ">Specialized titles</h3>      
       </div>
     </div>
 
     <div class="row  align-items-center mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">HEADING</small>
+        <small class=" text-muted ">HEADING</small>
       </div>
       <div class="col-sm-9">
-        <h6>Argon Design System</h6>
+        <h3 class="heading">Argon Design System</h3>
       </div>
     </div>
 
 
     <div class="row  align-items-center mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">HEADING TITLE </small>
+        <small class="text-muted ">HEADING TITLE </small>
       </div>
       <div class="col-sm-9">
-        <h3 class="color-warning">Argon Design System</h3>
+        <h3 class="heading-title color-warning">Argon Design System</h3>
       </div>
     </div>
 
     <div class="row  align-items-center mb-3">
       <div class="col-sm-9 offset-sm-3">
-        <h1>Header with small subtitle</h1>
+        <h3 class="theme-display-3">Header with small subtitle</h3>
       </div>
     </div>
 
     <div class="row   mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">HEADING SEACTION </small>
+        <small class="text-muted ">HEADING SEACTION </small>
       </div>
       <div class="col-sm-9">
-        <h5 class="font-weight-light">According to the National Oceanic and Atmospheric Administration, Ted, Scambos,
-          NSIDClead scentist, puts the potentially record maximum.</h5>
+        <p class="p lead text-muted">According to the National Oceanic and Atmospheric Administration, Ted, Scambos,
+          NSIDClead scentist, puts the potentially record maximum.</p>
       </div>
     </div>
   </div>
-  <!-- *************Paragraphs *********** -->
+  <!-- ==========Paragraphs========== -->
   <div class="container">
-
     <div class="row my-4">
       <div class="col">
-        <h4 class="font-weight-bold color-success">Specialized titles</h4>
+        <h3 class="h4  color-success text-capitalize ">Paragraphs</h3>         
       </div>
     </div>
     <!-- 1 -->
     <div class="row  align-items-center   mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">PARAGRAPH </small>
+        <small class="text-muted ">PARAGRAPH </small>
       </div>
       <div class="col-sm-9">
-        <h5 class="font-weight-lighter">I will be the leader of a company that ends up being worth billions of dollars,
+        <p class="p">I will be the leader of a company that ends up being worth billions of dollars,
           because I got the answers. I understand culture. I am the nucleus. I think that's a responsibility that I
-          have, to push possibilities, to show people, this is the level that things could be at.</h5>
+          have, to push possibilities, to show people, this is the level that things could be at.</p>
       </div>
     </div>
 
     <!-- 2 -->
     <div class="row  align-items-center   mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">LEAD TEXT </small>
+        <small class="text-muted ">LEAD TEXT </small>
       </div>
       <div class="col-sm-9">
-        <h5 class="font-weight-light lead">I will be the leader of a company that ends up being worth billions of
+        <p class="p lead">I will be the leader of a company that ends up being worth billions of
           dollars, because I got the answers. I understand culture. I am the nucleus. I think that's a responsibility
-          that I have, to push possibilities, to show people, this is the level that things could be at.</h5>
+          that I have, to push possibilities, to show people, this is the level that things could be at.</p>
       </div>
     </div>
     <!-- 3 -->
     <div class="row  align-items-center   mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">QUOTE</small>
+        <small class="text-muted ">QUOTE</small>
       </div>
       <div class="col-sm-9">
-        <h5 class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
-          ante.Someone famous in Source Title </h5>
-
+        <blockquote class="blockquote">
+          <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+            ante.Someone famous in Source Title </p>
+            <footer class="blockquote-footer">
+              Someone famous 
+              <cite  title="Source title">
+                Source Title
+              </cite>
+            </footer>
+        </blockquote>
       </div>
     </div>
 
     <!-- 4 -->
     <div class="row  align-items-center   mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">MUTED TEXT </small>
+        <small class="text-muted ">MUTED TEXT </small>
       </div>
       <div class="col-sm-9">
-        <h5 class="font-weight-light">I will be the leader of a company that ends up being worth billions of dollars,
-          because I got the answers... </h5>
-
+        <p class="p text-muted">I will be the leader of a company that ends up being worth billions of dollars,
+          because I got the answers... </p>
       </div>
     </div>
 
     <!-- 5 -->
     <div class="row  align-items-center   mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">PRIMARY TEXT </small>
+        <small class="text-muted ">PRIMARY TEXT </small>
       </div>
       <div class="col-sm-9">
-        <h6 class="font-weight-light color-primary">I will be the leader of a company that ends up being worth billions
-          of dollars, because I got the answers... </h6>
-
+        <p class="p color-primary">I will be the leader of a company that ends up being worth billions
+          of dollars, because I got the answers... </p>
       </div>
     </div>
-
     <!-- 6 -->
     <div class="row  align-items-center   mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">INFO TEXT </small>
+        <small class="text-muted ">INFO TEXT </small>
       </div>
       <div class="col-sm-9">
-        <h6 class="font-weight-light color-info">I will be the leader of a company that ends up being worth billions of
-          dollars, because I got the answers... </h6>
-
+        <p class="p color-info">I will be the leader of a company that ends up being worth billions of
+          dollars, because I got the answers... </p>
       </div>
     </div>
     <!-- 7 -->
     <div class="row  align-items-center   mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">SUCCESS TEXT</small>
+        <small class="text-muted">SUCCESS TEXT</small>
       </div>
       <div class="col-sm-9">
-        <h6 class="font-weight-light color-success">I will be the leader of a company that ends up being worth billions
-          of dollars, because I got the answers... </h6>
-
+        <p class="p color-success">I will be the leader of a company that ends up being worth billions
+          of dollars, because I got the answers... </p>
       </div>
     </div>
 
     <!-- 8 -->
-    <div class="row  align-items-center   mb-3">
+    <div class="row  align-items-center  mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold">WARNING TEXT</small>
+        <small class="text-muted ">WARNING TEXT</small>
       </div>
       <div class="col-sm-9">
-        <h6 class="font-weight-light color-warning">I will be the leader of a company that ends up being worth billions
-          of dollars, because I got the answers... </h6>
-
+        <p class="p  color-warning">I will be the leader of a company that ends up being worth billions
+          of dollars, because I got the answers... </p>
       </div>
     </div>
-
     <!-- 9 -->
-    <div class="row  align-items-center   mb-3">
+    <div class="row  align-items-center  mb-3">
       <div class="col-sm-3">
-        <small class="text-muted font-weight-bold"> DANGER TEXT</small>
+        <small class="text-muted "> DANGER TEXT</small>
       </div>
       <div class="col-sm-9">
-        <h6 class="font-weight-light color-danger">I will be the leader of a company that ends up being worth billions
-          of dollars, because I got the answers... </h6>
-
+        <p class="p color-danger">I will be the leader of a company that ends up being worth billions
+          of dollars, because I got the answers... </p>
       </div>
     </div>
   </div>
-
 
   <!-- images  -->
   <div class="container  my-5">
     <div class="row ">
       <div class="col">
-        <h2 class="font-weight-light"> Images</h2>
+        <h2 class="h2 text-capitalize"><span>images</span></h2>
       </div>
     </div>
-
     <div class="row my-4  images">
       <div class="col-md-3 col-6 ">
         <small class="text-uppercase d-block font-weight-bold mb-4"> IMAGE</small>
-        <img src="assets/images/theme/team-1.jpg" class="img-fluid rounded shadow  " alt="" width="150px">
+        <img src="assets/images/theme/team-1.jpg" class="img-fluid rounded shadow " alt="team image" width="150px">
       </div>
-
-
       <div class="col-md-3 col-6">
         <small class="text-uppercase d-block font-weight-bold mb-4">CIRCLE IMAGE</small>
-        <img src="assets/images/theme/team-2.jpg" class="img-fluid rounded-circle shadow " alt="" width="150px">
+        <img src="assets/images/theme/team-2.jpg" class="img-fluid rounded-circle shadow"alt="team image" width="150px">
       </div>
       <div class="col-md-3 col-6 mt-md-0 mt-3">
         <small class="text-uppercase d-block font-weight-bold mb-4">RAISED</small>
-        <img src="assets/images/theme/team-3.jpg" class="img-fluid rounded shadow   " alt="" width="150px">
+        <img src="assets/images/theme/team-3.jpg" class="img-fluid rounded shadow " alt="team image" width="150px">
       </div>
       <div class="col-md-3 col-6 mt-md-0 mt-3 ">
         <small class="text-uppercase d-block font-weight-bold mb-4">CIRCLE RAISED</small>
-        <img src="assets/images/theme/team-4.jpg" class="img-fluid rounded-circle shadow  " alt="" width="150px">
+        <img src="assets/images/theme/team-4.jpg" class="img-fluid rounded-circle shadow " alt="team image" width="150px">
       </div>
-
-
     </div>
-
   </div>
 
-  <!-- javascript components -->
-
+  <!-- ========javascript components======== -->
+  <!-- ========Model======== -->
   <div class="container  ">
     <div class="row">
       <div class="col">
-        <h2 class="">Javascript Components</h2>
-        <h4 class="color-success my-3">Modals</h4>
+        <h2 class="h2">Javascript Components</h2>
+        <h3 class="h4  color-success text-capitalize my-3 ">Modals </h3>  
       </div>
     </div>
 
-    <div class="row ">
-      <div class="col-md-4 col-12">
-        <button class="btn button-primary btn-block btn-transform">Default</button>
+    <div class="row my-5 ">
+      <!-- button 1 -->
+      <div class="col-md-4 col-12 ">
+
+        <button class="btn custom-btn button-lg button-primary btn-block " data-toggle="modal"
+          data-target="#mymodal-1">Default</button>
+        <!-- modal -->
+        <div class="modal fade" id="mymodal-1" tabindex="-1" role="dialog">
+          <div class="modal-dialog">
+            <!-- modal contant -->
+            <div class="modal-content">
+              <div class="modal-header py-3 pl-5">
+                <h6 class="modal-title">Type your modal title</h6>
+                <button type="button" class="close" data-dismiss="modal">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <!-- modal body -->
+              <div class="modal-body py-4 pl-5">
+                <p class="p ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                  there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,
+                  a large language ocean.</p><br>
+                <p class="p">A small river named Duden flows by their place and supplies it with the necessary
+                  regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </p>
+              </div>
+              <!-- modal footer -->
+              <div class="modal-footer  py-4 pl-5">
+                <a type="button" class="btn custom-btn button-mediam button-primary ">save changes</a>
+                <a type="button" class="btn  custom-link color-primary ml-auto" data-dismiss="modal">close</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
       </div>
+      <!-- button 2 -->
       <div class="col-md-4 col-12 my-md-0 my-3">
-        <button class="btn button-warning btn-block btn-transform">notification</button>
+
+        <button class="btn custom-btn button-lg button-warning btn-block " data-toggle="modal"
+          data-target="#mymodal-2">notification</button>
+        <!-- modal -->
+        <div class="modal fade " id="mymodal-2" tabindex="-1" role="dialog">
+          <div class="modal-dialog">
+            <!-- modal content -->
+            <div class="modal-content  background-warning text-white">
+              <div class="modal-header py-3 pl-4">
+                <h6 class="modal-title text-white">Your attention is required</h6>
+                <button type="button" class="close text-white" data-dismiss="modal">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <!-- modal body -->
+              <div class="modal-body py-5 pl-4 text-center">
+                <i class="fa fa-3x fa-bell pb-4"></i>
+                <h6 class="text-white">YOU SHOULD READ THIS!</h6>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+              <!-- modal footer -->
+              <div class="modal-footer  py-4 pl-4">
+                <a href="" type="button" class="btn custom-btn button-mediam button-neutral text-dark font-weight-bold ">OK, GOT IT</a>     
+                <a href="" type="button" class="btn custom-link text-white   ml-auto"
+                  data-dismiss="modal">Close</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
       </div>
+
+
+      <!-- button 3 -->
       <div class="col-md-4 col-12">
-        <button class="btn button-success btn-block btn-transform ">Default</button>
+        <button class="btn custom-btn button-lg button-dark btn-block  " data-toggle="modal"
+          data-target="#mymodal-3">Default</button>
+        <!-- modal -->
+        <div class="modal fade " id="mymodal-3" tabindex="-1" role="dialog">
+          <div class="modal-dialog ">
+            <div class="modal-content">
+              <!-- modal body -->
+              <div class="modal-body">
+                <!-- sign up section -->
+                <div class="container-fluid  p-0 m-0 ">
+                  <div class="row p-0 ">
+                    <div class="col  ">
+                      <!-- card -->
+                      <div class="card rounded-lg border-0 ">
+                        <div class="card-header text-center bg-transparent border-0">
+                          <small class="text-muted d-block">Sign in with</small>
+                          <a href="#" class="btn custom-btn button-mediam  button-neutral my-5">
+                            <img src="assets/images/icons/common/github.svg" width="20px" class="img-fluid mr-2" alt="github image">
+                            github</a>
+                          <a href="#" class="btn custom-btn button-mediam button-neutral my-5  ml-2 ">
+                            <img src="assets/images/icons/common/google.svg" width="20px" class="img-fluid mr-2" alt="google image">
+                            google</a>
+                        </div>
+
+                        <!-- card body -->
+                        <div class="card-body text-center bg-light  ">
+                          <small class="text-muted pt-4 ">Or sign in with credentials</small><br>
+                          <!-- form -->
+                          <form action="" class="form-group  mx-md-5 login-form mt-4">
+                            <input type="email" placeholder="Email" class="form-control py-4 shadow pl-5 border-0"><br>
+                            <i class="fas fa-envelope text-muted icon-one"></i>
+                            <input type="password" placeholder="password"
+                              class="form-control py-4 shadow pl-5 border-0"><br>
+                            <i class="fas fa-unlock-alt text-muted icon-two"></i>
+                            <input type="checkbox" class="custom-checkbox mr-2 float-left mt-1 shadow border-0   ">
+                            <label for="" class="form-check-label text-muted float-left  ">Remember
+                              me</label><br>
+                            <a href="#" class="btn custom-btn button-mediam button-primary my-5 ">sign
+                              in</a><br>
+                          </form>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
 
   </div>
-
-
-  <!-- Datepicker -->
-  <div class="container">
-    <div class="row">
+  </div>
+  <!--======== Datepicker========= -->
+  <div class="container date-section">
+    <div class="row my-3">
       <div class="col-12">
-        <h4 class="color-success my-3">Datepicker</h4>
+        <h3 class="h4  color-success text-capitalize my-3 ">Datepicker </h3> 
       </div>
-
     </div>
-    <!-- form row -->
-    <form action="" class="form-group">
-      <div class="row  align-items-end">
 
-        <div class="col-lg-4 ">
-
-          <label for="" class="text-uppercase pb-1">single date</label>
-          <input type="" class="form-control datepicker datepicker-dropdown  " value="06/20/2018">
-
-
-
+    <div class="row  align-items-end">
+      <div class="col-lg-4 ">
+        <!-- 1 -->
+        <label for="" class="h6 text-uppercase pb-1">single date</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text bg-transparent "><i class="fas fa-calendar-alt"></i></span>
+          </div>
+          <input type="" class="form-control datepicker datepicker-dropdown border-left-0  " value="06/20/2020">
         </div>
-
-
-        <div class="col-lg-4">
-          <label for="" class="text-uppercase pb-1 py-lg-0 py-2">DATE RANGE</label>
-          <input type="" class="form-control datepicker datepicker-dropdown  " value="06/20/2018">
-        </div>
-        <div class="col-lg-4 my-lg-0 my-3">
-          <!-- <label for="">single date</label> -->
-          <input type="" class="form-control datepicker datepicker-dropdown " value="06/20/2018">
-        </div>
-
-
-
-
-
       </div>
-    </form>
-
-
+      <!-- 2 -->
+      <div class="col-lg-4">
+        <label for="" class="h6 text-uppercase pb-1 py-lg-0 py-2">DATE RANGE</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text bg-transparent"><i class="fas fa-calendar-alt"></i></span>
+          </div>
+          <input type="" class="form-control datepicker datepicker-dropdown  border-left-0" value="06/20/2021">
+        </div>
+      </div>
+      <div class="col-lg-4 my-lg-0 my-3">
+        <!-- 3 -->
+        <div class="input-group">
+          <div class="input-group-prepend ">
+            <span class="input-group-text bg-transparent "><i class="fas fa-calendar-alt"></i></span>
+          </div>
+          <input class="form-control  datepicker datepicker-dropdown  border-left-0 " value="06/20/2022">
+        </div>
+      </div>
+    </div>
 
   </div>
 
-  <!-- tooltip and popover -->
+  <!-- =========tooltip and popover========= -->
 
-  <div class="container my-4">
+  <div class="container my-5 ">
     <div class="row">
-      <h4 class="color-success my-3">Tooltips & Popovers</h4>
+      <h3 class="h4  color-success text-capitalize my-3 ">Tooltips & Popovers </h3> 
     </div>
 
     <div class="row  ">
+      <!-- tooltip -->
       <div class="col-lg-6 col-12 ">
-        <small class="py-2 d-block">TOOLTIPS</small>
-        <button class="btn button-primary btn-transform btn-sm " data-toggle="tooltip" data-placement="left"
-          title="tooltip on left">onleft</button>
-        <button class="btn button-primary btn-transform ml-1 btn-sm" data-toggle="tooltip" data-placement="top"
-          title="tooltip on top">ontop</button>
-        <button class="btn button-primary btn-transform ml-1 btn-sm" data-toggle="tooltip" data-placement="bottom"
-          title="tooltip on bottom">onbottom</button>
-        <button class="btn button-primary btn-transform ml-1 btn-sm" data-toggle="tooltip" data-placement="right"
-          title="tooltip on right">onright</button>
+        <small class="py-3 d-block">TOOLTIPS</small>
+        <button class="btn custom-btn button-sm button-primary " data-toggle="tooltip" data-placement="left"
+          title="tooltip on left">on left</button>
+        <button class="btn custom-btn button-sm button-primary  ml-1" data-toggle="tooltip" data-placement="top"
+          title="tooltip on top">on top</button>
+        <button class="btn custom-btn button-sm button-primary  ml-1 " data-toggle="tooltip" data-placement="bottom"
+          title="tooltip on bottom">on bottom</button>
+        <button class="btn custom-btn button-sm  button-primary  ml-sm-1 my-sm-0 my-2" data-toggle="tooltip" data-placement="right"
+          title="tooltip on right">on right</button>
 
 
       </div>
+      <!-- poppover -->
       <div class="col-lg-6 col-12 my-md-0 my-3">
-        <small class="py-2 d-block">POPOVERS</small>
-        <button class="btn button-dark btn-transform btn-sm ">onleft</button>
-        <button class="btn button-dark btn-transform btn-sm ml-1">ontop</button>
-        <button class="btn button-dark btn-transform btn-sm ml-1">onbottom</button>
-        <button class="btn button-dark btn-transform btn-sm ml-1">onright</button>
+        <small class="py-3 d-block">POPOVERS</small>
+        <button class="btn custom-btn button-sm button-dark   " data-toggle="popover" title="   
+        POPOVERS on left" data-content="Argon Design System comes with four pre-built pages" data-trigger="focus"
+          data-placement="left">onleft</button>
+        <button class="btn custom-btn button-sm button-dark  ml-1" data-toggle="popover" title="POPOVERS on top"
+          data-content="Argon Design System comes with four pre-built pages" data-trigger="focus"
+          data-placement="top">ontop</button>
+        <button class="btn custom-btn button-sm button-dark  ml-1" data-toggle="popover" title="POPOVERS on bottom"
+          data-content="Argon Design System comes with four pre-built pages" data-trigger="focus"
+          data-placement="bottom">onbottom</button>
+        <button class="btn custom-btn button-sm  button-dark  ml-sm-1 my-sm-0 my-2" data-toggle="popover" title="POPOVERS on right"
+          data-content="Argon Design System comes with four pre-built pages" data-trigger="focus"
+          data-placement="right">on right</button>
 
       </div>
 
@@ -1248,16 +1639,16 @@
       <div class="row">
         <div class="col-lg-5 ">
           <h1 class="color-neutral font-weight-light">Bootstrap carousel</h1>
-          <p class="color-neutral py-3 display-4">Argon Design System comes with four pre-built pages to help you get
+          <p class="p lead color-neutral py-3 display-4">Argon Design System comes with four pre-built pages to help you
+            get
             started faster. You can change the text and images and you're good to go.</p>
-          <button class="btn button-neutral btn-transform text-uppercase text-dark px-4 py-2 my-3">see all
-            components</button>
-
+          <button class="btn custom-btn button-mediam button-white  my-3">see
+            all  components</button>
         </div>
         <!-- slider -->
-        <div class="col-lg-6 offset-lg-1 mt-lg-0 mt-3 ml-md-0 ml-4">
+        <div class="col-lg-6 offset-lg-1 mt-lg-0 mt-3 ">
           <!-- slider box -->
-          <div class="slider-box  rounded-lg">
+          <div class="rounded-lg">
             <!-- carousel -->
             <div id="carouselExampleIndicators" class="carousel slide rounded" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -1285,22 +1676,91 @@
               </a>
             </div>
             <!--end  -->
-          </div> <br><br>
+          </div> <br>
 
         </div>
       </div>
     </div>
   </section>
-  <!-- bootstrap 4 -->
-  <div class="container my-3">
-    <div class="row justify-content-center text-center">
+  <!-- =========Demo section========= -->
+
+  <div class="container my-5">
+    <div class="row  justify-content-center text-center py-lg-5">
       <div class="col-lg-8 ">
-        <h3 class="display-6 font-weight-normal">Do you love this awesome</h3>
+        <h2 class="h2 font-weight-bold">Nucleo Icons</h2>
+        <p class="p px-5 py-lg-2">The official package contains over 21.000 icons which are looking great in combination
+          with Argon Design System. Make sure you check all of them and use those that you like the most.</p>
+        <a href="#" class="btn custom-btn button-mediam button-primary ">view demo icons</a>
+        <a href="#" class="btn custom-btn button-mediam button-dark  my-md-0 my-2 ml-md-1">view
+          all icons</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ============contact section========= -->
+  <section class=" background-primary py-5 contact-box my-5">
+    <div class="container   my-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 ">
+          <h1 class="color-neutral font-weight-light pt-5">A beautiful Design System</h1>
+          <h3 class="text-white font-weight-light">completed with examples</h3>
+          <p class="p lead color-neutral py-3 ">The Design System comes with four pre-built pages to help you get
+            started faster. You can change the text and images and you're good to go. More importantly, looking at them
+            will give you a picture of what you can built with this powerful Bootstrap 4 Design System.</p>
+          <button class="btn custom-btn button-mediam button-success ">login page</button>
+          <button class="btn custom-btn button-mediam button-neutral  text-dark  ml-sm-2 my-sm-0 my-2">Register
+            page</button>
+        </div>
+        <!-- form -->
+        <div class="col-lg-5 justify-content-end offset-lg-1  mt-lg-0 mt-5 ">
+          <!-- card -->
+          <div class="card rounded-lg ml-lg-5 ">
+            <div class="card-header text-center">
+              <small class="text-muted pt-4 ">Sign in with</small><br>
+              <button class="btn custom-btn button-mediam button-neutral  text-primary mt-3 ">
+                <img src="assets/images/icons/common/github.svg" width="20px" class="img-fluid mr-2" alt="">
+                github</button>
+              <button class="btn custom-btn button-mediam  button-neutral  text-primary ml-2 mt-3">
+                <img src="assets/images/icons/common/google.svg" width="20px" class="img-fluid mr-2 " alt="">
+                google</button><br><br>
+            </div>
+            <!-- card body -->
+            <div class="card-body text-center   bg-light">
+              <small class="text-muted pt-4 ">Or sign in with credentials</small><br>
+              <!-- form -->
+              <form action="" class="form-group mx-md-5 login-form mt-3">
+                <input type="email" placeholder="Email" class="form-control py-4 shadow pl-5 border-0"><br>
+                <i class="fas fa-envelope text-muted icon-one"></i>
+                <input type="password" placeholder="password" class="form-control py-4 shadow pl-5 border-0"><br>
+                <i class="fas fa-unlock-alt text-muted icon-two"></i>
+                <input type="checkbox" class=" mr-2 float-left mt-1 shadow border-0 " id="mycheck">
+                <label for="mycheck" class="form-check-label text-muted float-left ">Remember me</label><br>
+                <button class="btn custom-btn button-mediam button-primary  text-white  mt-3">sign
+                  in</button>
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- bootstrap 4 -->
+  <div class="container my-5">
+    <div class="row justify-content-center text-center py-4">
+      <div class="col-lg-8 ">
+        <h2>Do you love this awesome</h2>
         <h2 class="font-weight-light color-success pt-1">Design System for Bootstrap 4?</h2>
-        <p class="font-weight-light nucleo-sub-tittle text-center px-4 py-4">Cause if you do, it can be yours for FREE.
+        <p class="p  text-center px-md-5 py-4">Cause if you do, it can be yours for FREE.
           Hit the button below to navigate to Creative Tim where you can find the Design System in HTML. Start a new
           project or give an old Bootstrap project a new look!</p>
-        <button class="btn btn-lg button-primary btn-transform mb-4">download html</button>
+        <button class="btn custom-btn button-mediam button-primary  mb-4">download html</button>
       </div>
     </div>
   </div>
@@ -1313,91 +1773,76 @@
     </div>
     <div class="row  justify-content-center my-5">
       <div class="col-xl-1 col-4 ">
-        <img src="assets/images/tech/tech1.PNG" class="img-fluid  " alt="">
+        <img src="assets/images/tech/tech1.PNG" class="img-fluid  " data-toggle="tooltip" data-placement="top"
+          title="Bootstrap 4 - Most popular front-end component librar" alt="">
       </div>
       <div class="col-xl-1 col-4">
-        <img src="assets/images/tech/tech2.PNG" class="img-fluid " alt="">
+        <img src="assets/images/tech/tech2.PNG" class="img-fluid " data-toggle="tooltip" data-placement="top"
+          title="Vue.js - The progressive javascript framework" alt="">
       </div>
       <div class="col-xl-1 col-4">
-        <img src="assets/images/tech/tech3.PNG" class="img-fluid " alt="">
+        <img src="assets/images/tech/tech3.PNG" class="img-fluid " data-toggle="tooltip" data-placement="top"
+          title="[Coming Soon] Sketch - Digital design toolkit" alt="">
       </div>
       <div class="col-xl-1 col-4">
-        <img src="assets/images/tech/tech4.PNG" class="img-fluid " alt="">
+        <img src="assets/images/tech/tech4.PNG" class="img-fluid " data-toggle="tooltip" data-placement="top"
+          title="[Coming Soon] Adobe Photoshop - Software for digital images manipulation" alt="">
       </div>
       <div class="col-xl-1 col-4">
-        <img src="assets/images/tech/tech5.PNG" class="img-fluid " alt="">
+        <img src="assets/images/tech/tech5.PNG" class="img-fluid " data-toggle="tooltip" data-placement="top"
+          title="[Coming Soon] Angular - One framework. Mobile & desktop" alt="">
       </div>
       <div class="col-xl-1 col-4">
-        <img src="assets/images/tech/tech6.PNG" class="img-fluid " alt="">
+        <img src="assets/images/tech/tech6.PNG" class="img-fluid " data-toggle="tooltip" data-placement="top"
+          title="[Coming Soon] React - A JavaScript library for building user interfaces" alt="">
       </div>
     </div>
   </div>
 
   <!-- card img -->
-  <div class="jumbotron mb-0">
+  <div class="jumbotron mb-0 p-3 rounded-0">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <img src="images/theme/landing.jpg" class="img-fluid btn-transform rounded-lg" alt="">
+          <img src="assets/images/theme/landing.jpg" class="img-fluid bounce-element rounded-lg" alt="">
         </div>
         <div class="col-lg-6 mt-lg-0 mt-4 ">
-          <img src="images/theme/profile.jpg" class="img-fluid btn-transform rounded-lg" alt="">
+          <img src="assets/images/theme/profile.jpg" class="img-fluid bounce-element rounded-lg" alt="">
         </div>
       </div>
     </div>
 
-    <!-- footer section -->
-    <div class="container  my-5">
-      <div class="row">
-        <div class="col-md-6">
-          <h3 class="color-primary font-weight-light">Thank you for supporting us!</h3>
-          <h4 class="color-dark font-weight-light py-2">Let's get in touch on any of these platforms.</h4>
-        </div>
-
-        <div class="col-md-6  "> <br>
-          <button class="btn button-success btn-transform text-white ml-md-5 ml-0"><i
-              class="fab fa-twitter"></i></button>
-          <button class="btn button-primary btn-transform text-white ml-2"><i
-              class="fab fa-facebook-square"></i></button>
-          <button class="btn button-warning btn-transform text-white ml-2"><i class="fab fa-twitter"></i></button>
-          <button class="btn button-danger btn-transform text-white ml-2"><i class="fab fa-github"></i></button>
-        </div>
-      </div>
-    </div>
-
-    <!-- inner footer -->
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <hr>
-        </div>
-
-      </div>
+    <!-- ============footer section=========== -->
+    <div class="container  mt-5 ">
       <div class="row ">
-        <div class="col-md-6">
-          <a href="#" class="float-left"><span class="text-dark">© 2018</span> Creative Tim.</a>
-        </div>
         <div class="col-md-6 ">
-          <ul class="list-inline list-unstyled  float-right ">
-            <li class="list-inline-item">
-              <a href="#" class="text-dark">Creative Tim</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="text-dark">About Us</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="text-dark">Blog</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="text-dark">MIT License</a>
-            </li>
-          </ul>
+          <h3 class=" color-primary font-weight-light">Thank you for supporting us!</h3>
+          <h4 class=" color-dark  py-2 font-weight-light">Let's get in touch on any of these platforms.</h4>
+        </div>
+        <div class="col-md-6"> 
+          <a href="#" class="btn custom-btn button-success   ml-md-5 ml-0" data-toggle="tooltip" data-placement="top" title="Follo  us on twitter"> <i class="fab fa-twitter"></i></a>      
+          <a href="#" class="btn custom-btn button-primary  ml-2" data-toggle="tooltip" data-placement="top"title="like us on facebook"><i class="fab fa-facebook-square"></i> </a>
+          <a href="#" class="btn custom-btn button-danger ml-2" data-toggle="tooltip" data-placement="top" title="Foll us"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="btn custom-btn button-dark ml-2" data-toggle="tooltip" data-placement="top"title="Star us on Github"><i class="fab fa-github"></i></a>    
+        </div>        
+      </div><hr>
+      <!-- inner row -->
+      <div class="row  my-4 ">
+        <div class="col d-flex flex-md-row flex-column justify-content-md-between ">
+           <div class="text-muted">© 2018 <a href="#" class="text-decoration-none color-primary">Creative Tim.</a></div>
+            <ul class=" d-flex list-unstyled">
+              <li class="list-inline-item"><a href="#" class="text-decoration-none p-1 font-weight-light text-dark text-muted">Creative Tim</a></li>
+              <li class="list-inline-item"><a href="#" class="text-decoration-none p-1 font-weight-light text-dark text-muted">About Us</a></li>
+              <li class="list-inline-item"><a href="#" class="text-decoration-none p-1 font-weight-light text-dark text-muted">Blog</a></li>
+              <li class="list-inline-item"><a href="#" class="text-decoration-none p-1 font-weight-light text-dark text-muted">MIT License</a></li>
+            </ul>   
         </div>
       </div>
     </div>
 
-  </div>
-  <!--jumbotron-->
+    <!-- ========inner footer======== -->
+  </div><!--jumbotron-->
+  
 
   <!-- bootstrap core -->
   <script src="assets/vandor/jquery/jquery.min.js"></script>
@@ -1405,12 +1850,9 @@
   <script src="assets/vandor/bootstrap/js/bootstrap.min.js"></script>
 
   <script src="assets/vandor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
-  <!-- custom js -->
+  <!-- =========custom js======== -->
   <script src="assets/js/index.js"></script>
-  <!-- <script>
-    $('.datepicker').datepicker();
-  </script> -->
-  <!-- custom js -->
+
 </body>
 
 </html>

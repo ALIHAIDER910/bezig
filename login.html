@@ -13,9 +13,6 @@
   <!-- custom css -->
   <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="assets/css/login.css">
-
-
-
   <title>login</title>
 </head>
 
@@ -24,225 +21,231 @@
   <!-- banner section start here ********* -->
   <div class=" signup-main ">
     <!-- header -->
-    <header class="header ">
-      <div class="container ">
-        <div class="row ">
-          <div class="col-md-12 ">
-
-            <!-- navbar -->
-            <nav class="navbar navbar-expand-lg navbar-light   ">
-              <!-- brand -->
-              <a href="#" class="navbar-brand">
-                <img src="assets/images/brand/white.png" width="130px" height="130px" class="img-fluid   " alt="">
-              </a>
-              <!-- toggler -->
-              <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="mynavbar">
-                <!-- nav -->
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item dropdown">
-                    <a href="" class="nav-link  text-capitalize mx-lg-4 text-white "
-                      data-toggle="dropdown">components</a>
-                    <div class="dropdown-menu text-capitalize">
-                      <a href="index.html" class="dropdown-item text-primary ">
-                        <!-- first icon -->
-                        <div class=" d-flex ">
-                          <span class="span-icon background-primary   "><i class="fas fa-rocket"></i></span>
-                          <div class="ml-3 mt-lg-0 mt-3">
-                            <h6 class="text-uppercase  "> getting started</h6>
-                            <small class="text-muted  d-lg-inline-block d-none ">loren how to use Argon compiling
-                              Sass,change brand<br> colors and more.</small>
-                          </div>
+     <!-- ========header section======= -->
+     <header class="header header-global">
+      <!-- navbar -->
+        <nav id="navbar-main" class="navbar navbar-expand-lg  navbar-light navbar-main navbar-transparent headroom">
+            <div class="container ">
+                  <!-- brand -->
+                  <a href="index.html" class="navbar-brand mr-lg-5">
+                      <img src="assets/images/brand/white.png" height="30px" class="img-fluid" alt="">
+                  </a>
+                <!-- toggler -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-expanded="false" aria-controls="navbar_global" aria-label="toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                 <!-- -----custom collapse -->
+                 <div class="navbar-collapse collapse" id="navbar_global">
+                   <div class="navbar-collapse-header">
+                     <div class="row">
+                       <div class="col-6 collapse-brand">
+                          <a href="">
+                            <img src="./assets/images/brand/blue.png" alt="">
+                          </a>
+                       </div>
+                       <div class="col-6 collapse-close">
+                         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                           <span></span>
+                           <span></span>
+                         </button>
+                       </div>
+                     </div>
+                   </div>
+                 <!-- </div> -->
+             <!-- nav -->
+             <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                  <i class="fas fa-toggle-off  d-lg-none"></i>
+                  <span class="nav-link-inner--text">Components</span>
+                </a>
+                <div class="dropdown-menu  dropdown-menu-xl ">
+                 
+                <div class="dropdown-menu-inner">
+                  <!-- drop item 1 -->
+                  <div class="dropdown-item">
+                    <a href="" class="media d-flex align-items-center ">
+                      <div class="icon  background-primary text-white  rounded-circle icon-box" >
+                        <i class="fas fa-rocket  text-white"></i>
+                      </div>
+                      <div class="media-body ml-3">
+                        <h6 class=" text-primary mb-md-1">Getting started</h6>
+                        <small class="para  d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand<br> colors and more.</small>
+                      </div>
+                    </a>
+                  </div> <!--dropdown item end-->
+                
+                  <!-- drop item 2 -->
+                  <div class="dropdown-item">
+                    <a href=" " class="media d-flex align-items-center">
+                      <div class="icon background-success text-white  rounded-circle text-white icon-box">
+                        <i class="fas fa-palette"></i>
+                      </div>
+                  
+                        <div class="media-body ml-3">
+                          <h6 class=" text-primary  mb-md-1 ">Foundation</h6>
+                          <small class="para d-none d-md-inline-block mb-0 ">Learn more about colors, typography, icons and the grid<br> system we used for Argon.</small>
                         </div>
-
                       </a>
-                      <a href="index.html" class="dropdown-item text-primary ">
-                        <!-- second icon -->
-                        <div class=" d-flex ">
-                          <span class="span-icon background-success   "><i class="fas fa-palette"></i></span>
-                          <div class="ml-3 mt-lg-0 mt-3">
-                            <h6 class="text-uppercase   "> foundation</h6>
-                            <small class="text-muted  d-lg-inline-block d-none ">Learn more about colors, typography,
-                              icons and the grid<br> system we used for Argon.</small>
-                          </div>
+                    </div> <!--dropdown item end-->
+                    <!-- drop item 3 -->
+                    <div class="dropdown-item">
+                      <a href="" class="media d-flex align-items-center">
+                        <div class="icon background-warning text-white  rounded-circle  icon-box">
+                          <i class="fas fa-toggle-off "></i>
                         </div>
-
-                        <a href="index.html" class="dropdown-item text-danger ">
-                          <!-- thired icon -->
-                          <div class=" d-flex ">
-                            <span class="span-icon background-warning   "><i class="fas fa-toggle-off"></i></span>
-                            <div class="ml-3 mt-lg-0 mt-3">
-                              <h6 class=" text-uppercase  "> components</h6>
-                              <small class="text-muted  d-lg-inline-block d-none ">Browse our 50 beautiful handcrafted
-                                components<br> offered in the Free version.</small>
-                            </div>
-                          </div>
-
-                        </a>
-
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown ">
-                    <a href="" class="nav-link text-capitalize text-white   " data-toggle="dropdown"
-                      id="mydropdown">examples</a>
-                    <!--dropdown menu  -->
-                    <div class="dropdown-menu text-capitalize" aria-labelledby="mydropdown">
-                      <a href="landing.html" class="dropdown-item">landing</a>
-                      <a href="" class="dropdown-item">profile</a>
-                      <a href="" class="dropdown-item">login</a>
-                      <a href="" class="dropdown-item">register</a>
-                    </div>
-                  </li>
-                </ul>
-                <!-- social nav links -->
-                <ul class="navbar-nav navbar-social-links ">
-                  <li class="nav-item ">
-                    <a href="" class="nav-link">
-                      <i class="fab fa-facebook-square"></i>
+                      <div class="media-body ml-3">
+                        <h6 class=" text-danger  mb-md-1">Components</h6>
+                        <small class="para d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components<br> offered in the Free version.</small>
+                      </div>
                     </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="" class="nav-link">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="" class="nav-link">
-                      <i class="fab fa-twitter-square"></i>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="" class="nav-link">
-                      <i class="fab fa-github"></i>
-                    </a>
-                  </li>
-                  <button class="btn button-neutral  ml-4  text-primary display-4 btn-transform ">
-                    <i class="fas fa-cloud-download-alt"></i> download</button>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header><br><br><br>
-    <!-- signup section -->
-
+                  </div> <!--dropdown item end-->
+  
+                  </div>
+                </div>
+              </li>
+  
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                  <i class="fas fa-square d-lg-none"></i>
+                  <span class="nav-link-inner--text">Examples</span>
+                </a>
+                <div class="dropdown-menu border-0">
+                  <a href="landing.html" class="dropdown-item">Landing</a>
+                  <a href="profile.html" class="dropdown-item">Profile</a>
+                  <a href="login.html" class="dropdown-item">Login</a>
+                  <a href="register.html" class="dropdown-item">Register</a>
+                </div>
+              </li>
+            </ul>
+            <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link nav-link-icon" href="" target="_blank" data-toggle="tooltip" title="Like us on Facebook">
+                  <i class="fab fa-facebook-square "></i>
+                  <span class="nav-link-inner--text d-lg-none">Facebook</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-icon" href="" target="_blank" data-toggle="tooltip" title="Follow us on Instagram">
+                  <i class="fab fa-instagram "></i>
+                  <span class="nav-link-inner--text d-lg-none">Instagram</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-icon" href="" target="_blank" data-toggle="tooltip" title="Follow us on Twitter">
+                  <i class="fab fa-twitter   "></i>
+                  <span class="nav-link-inner--text d-lg-none">Twitter</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-icon" href="" target="_blank" data-toggle="tooltip" title="Star us on Github">
+                  <i class="fab fa-github "></i>
+                  <span class="nav-link-inner--text d-lg-none">Github</span>
+                </a>
+              </li>
+              <li class="nav-item d-none d-lg-block ml-lg-4">
+                <a href="" target="_blank" class="btn custom-btn button-neutral button-mediam ">
+                  <span class="btn-inner--icon">
+                    <i class="fas fa-cloud-download-alt mr-2"></i>
+                  </span>
+                  <span class="  nav-link-inner">Download</span>
+                </a>
+              </li>
+            </ul>
+  
+           </div>
+         </div> <!--container-->
+      </nav>
+   </header> <!--header end-->
+   
     <!-- sign up section -->
-    <div class="container  my-5  form-container">
+    <div class="container  my-5  form-area">
       <div class="row justify-content-center">
         <div class="col-lg-5 ">
           <!-- card -->
           <div class="card rounded-lg">
             <div class="card-header text-center">
-              <small class="text-muted pt-4 ">Sign in with</small><br><br>
-              <button class="btn btn-transform button-neutral text-uppercase text-primary py-2">
+              <small class="text-muted   ">Sign in with</small><br>
+              <button class="btn custom-btn button-mediam button-neutral my-4">
                 <img src="assets/images/icons/common/github.svg" width="20px" class="img-fluid mr-2" alt="">
                 github</button>
-              <button class="btn btn-transform button-neutral text-uppercase text-primary ml-2 py-2">
+              <button class="btn custom-btn button-mediam button-neutral ml-2 my-4">
                 <img src="assets/images/icons/common/google.svg" width="20px" class="img-fluid mr-2" alt="">
-
-                google</button><br><br>
+                google</button>
             </div>
             <!-- card body -->
-            <div class="card-body text-center   bg-light">
-              <small class="text-muted pt-4 ">Or sign in with credentials</small><br><br>
+            <div class="card-body  bg-light">
+              <small class="text-muted pt-3 text-center pb-2 d-block ">Or sign in with credentials</small><br>
               <!-- form -->
               <form action="" class="form-group mx-md-5 login-form">
                 <input type="email" placeholder="Email" class="form-control py-4 shadow pl-5 border-0"><br>
                 <i class="fas fa-envelope text-muted icon-one"></i>
                 <input type="password" placeholder="password" class="form-control py-4 shadow pl-5 border-0"><br>
                 <i class="fas fa-unlock-alt text-muted icon-two"></i>
-                <input type="checkbox" class=" mr-2 float-left mt-1 shadow border-0   ">
-                <label for="" class="form-check-label text-muted float-left  ">Remember me</label><br><br>
-                <button class="btn button-primary btn-transform text-uppercase text-white py-2 px-3 ">sign
-                  in</button><br><br>
+                  <!-- checkbox -->
+                  <input type="checkbox" id="exampleCheck1">
+                  <label class="pl-2 " for="exampleCheck1">Remember me</label>
+                  <div class="d-flex justify-content-center">
+                    <a href="#" class="btn custom-btn button-mediam button-primary  my-4">sign in</a>  
+                  </div>                
               </form>
-            </div>
-
+           </div>
           </div>
-          <br>
-          <a class="text-white float-left ">Forgot password?</a>
-          <a class="text-white float-right ">Create new account</a>
-          <br><br>
+            <div class="d-flex justify-content-between my-2">
+              <a href="#" class=" text-white  text-decoration-none text-muted "><small> Forgot password?</small></a>
+              <a href="#" class=" text-white  text-decoration-none text-muted "><small>Create new account</small> </a>
+            </div>
         </div>
-
 
       </div>
     </div>
-
-
 
     <!-- footer section -->
     <!-- jumbotron -->
-    <div class="jumbotron mb-0 mt-5">
-      <div class="container  my-5  ">
-        <div class="row">
-          <div class="col-md-6">
-            <h3 class="color-primary font-weight-light">Thank you for supporting us!</h3>
-            <h4 class="color-dark font-weight-light py-2">Let's get in touch on any of these platforms.</h4>
-          </div>
-
-          <div class="col-md-6  "> <br>
-            <button class="btn button-success btn-transform text-white ml-md-5 ml-0"><i
-                class="fab fa-twitter"></i></button>
-            <button class="btn button-primary btn-transform text-white ml-2"><i
-                class="fab fa-facebook-square"></i></button>
-            <button class="btn button-warning btn-transform text-white ml-2"><i class="fab fa-twitter"></i></button>
-            <button class="btn button-danger btn-transform text-white ml-2"><i class="fab fa-github"></i></button>
-          </div>
-        </div>
+    <div class="jumbotron mb-0 rounded-0 p-3">
+   <!-- ============footer section=========== -->
+   <div class="container  mt-5 ">
+    <div class="row ">
+      <div class="col-md-6 ">
+        <h3 class=" color-primary font-weight-light">Thank you for supporting us!</h3>
+        <h4 class=" color-dark  py-2 font-weight-light">Let's get in touch on any of these platforms.</h4>
       </div>
-
-      <!-- inner footer -->
-      <div class=" container  ">
-        <div class="row">
-          <div class="col">
-            <hr>
-          </div>
-
-        </div>
-        <div class="row ">
-          <div class="col-md-6">
-            <a href="#" class="float-left"><span class="text-dark">© 2018</span> Creative Tim.</a>
-          </div>
-          <div class="col-md-6 ">
-            <ul class="list-inline list-unstyled  float-right ">
-              <li class="list-inline-item">
-                <a href="#" class="text-dark">Creative Tim</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" class="text-dark">About Us</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" class="text-dark">Blog</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" class="text-dark">MIT License</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <div class="col-md-6"> 
+        <a href="#" class="btn custom-btn button-success   ml-md-5 ml-0" data-toggle="tooltip" data-placement="top" title="Follo  us on twitter"> <i class="fab fa-twitter"></i></a>      
+        <a href="#" class="btn custom-btn button-primary  ml-2" data-toggle="tooltip" data-placement="top"title="like us on facebook"><i class="fab fa-facebook-square"></i> </a>
+        <a href="#" class="btn custom-btn button-danger ml-2" data-toggle="tooltip" data-placement="top" title="Foll us"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="btn custom-btn button-dark ml-2" data-toggle="tooltip" data-placement="top"title="Star us on Github"><i class="fab fa-github"></i></a>    
+      </div>        
+    </div><hr>
+    <!-- inner row -->
+    <div class="row  my-4 ">
+      <div class="col d-flex flex-md-row flex-column justify-content-md-between ">
+         <div class="text-muted">© 2018 <a href="#" class="text-decoration-none color-primary">Creative Tim.</a></div>
+          <ul class=" d-flex list-unstyled">
+            <li class="list-inline-item"><a href="#" class="text-decoration-none p-1 font-weight-light text-dark text-muted">Creative Tim</a></li>
+            <li class="list-inline-item"><a href="#" class="text-decoration-none p-1 font-weight-light text-dark text-muted">About Us</a></li>
+            <li class="list-inline-item"><a href="#" class="text-decoration-none p-1 font-weight-light text-dark text-muted">Blog</a></li>
+            <li class="list-inline-item"><a href="#" class="text-decoration-none p-1 font-weight-light text-dark text-muted">MIT License</a></li>
+          </ul>   
       </div>
-
-
     </div>
-    <!--jumbotron-->
+  </div>
 
+  <!-- ========inner footer======== -->
 
   </div>
-  <!--sign up end-->
+  <!--jumbotron-->
 
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <!-- jquary -->
+  <!-- bootstrap core -->
   <script src="assets/vandor/jquery/jquery.min.js"></script>
-  <!-- popper js -->
   <script src="assets/vandor/popper/popper.min.js"></script>
-  <!-- bootstrap js -->
   <script src="assets/vandor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/vandor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+  <!-- =========custom js======== -->
+  <script src="assets/js/index.js"></script>
+ 
 </body>
 
 </html>

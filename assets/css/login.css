@@ -2,30 +2,22 @@
     background-color: rgb(25, 28, 77);
     
 }
-
   .login-form{
     opacity: 0.8;
     position: relative;
 
   }
-
  .login-form .icon-one{
      
      position: absolute;
      top: 15px;
      left: 10px;
-     
-
 }
-
-
 .login-form .icon-two{
      
     position: absolute;
     top: 87px;
-    left: 10px;
-    
-
+    left: 10px;    
 }
 
 
