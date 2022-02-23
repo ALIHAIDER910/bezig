@@ -1,4 +1,4 @@
-/*==========Typography========== */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 html{
   scroll-behavior: smooth;
@@ -11,8 +11,9 @@ body{
     line-height: 1.5;
     color: #525f7f;
 }
+/*==========Typography========== */
 h1,h2,h3,h4,h5,h6, .h1, .h2, .h3, .h4, .h5, .h6{
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.5;
     margin-bottom: 0.5rem;
     color: #32325d;
@@ -56,12 +57,30 @@ h6, .h6 {
     font-weight: 500;
     line-height: 1.5;
 }
+/* special heading */
+.heading{
+  font-size: .95rem;
+  font-weight: 400;
+  letter-spacing: .025em;
+  text-transform: uppercase;
+}
+.heading-title {
+  font-size: 1.375rem;
+  font-weight: 600;
+  letter-spacing: .025em;
+  text-transform: uppercase;
+}
+
+
 /* ==========paragraphs========= */
 .p{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.7;
 }
+
+
+
 
 /*==========form input component========== */
 
@@ -121,6 +140,7 @@ h6, .h6 {
   position: relative;
   line-height: 1.5;
   letter-spacing: .025em;
+  
 
 }
 .custom-btn:hover{
@@ -132,26 +152,21 @@ h6, .h6 {
 
 }
 /* small btn */
-.btn-sm{
-    padding-top: 0.25rem;
-    padding-right: 0.5rem;
-    padding-bottom: 0.25rem;
-    padding-left: 0.5rem;
+.button-sm{
+    font-size: .75rem;
+    padding: 0.25rem .5rem;
 }
-/* mediam btn */
-.btn-mediam{
-  padding-top: 0.625rem;
-  padding-right: 1.25rem;
-  padding-bottom: 0.625rem;
-  padding-left: 1.25rem;
+/* button mediam */
+.button-mediam{
+  padding: 0.625rem 1.25rem;
+  font-size: 0.875rem;
 
 }
+
 /* larg btn */
-.btn-lg{
-    padding-top: 0.875rem;
-    padding-right: 1rem;
-    padding-bottom: 0.875rem;
-    padding-left: 1rem;
+.button-lg{
+  font-size: .9rem;
+  padding: 0.875rem 1rem;
 
 }
 /* ====buttons colors===== */
@@ -180,11 +195,18 @@ h6, .h6 {
 }
 .button-danger{
     background-color: rgb(245, 54, 92);
-    color: white !important; 
+    color: white !important ; 
 }
-.button-neutral{
-    background-color: rgb(255, 255, 255);
-    color: #5e72e4 ;
+.button-neutral{ 
+  border-color: #fff;
+  background-color: #fff; 
+  color: #5e72e4 ;
+}
+.button-white{
+  color: #212529;
+  border-color: #fff;
+  background-color: #fff;
+ 
 }
 .button-black{
     background-color: rgb(34, 34, 34);
@@ -194,22 +216,21 @@ h6, .h6 {
 /* ========button outlines========== */
 
 /*outline primary */
-.button-outline-primary{
-  background-color: transparent;
-  color:rgb(94, 114, 228) ;
-  border: 1px solid rgb(94, 114, 228);
-
+.outline{
   font-size: 0.875rem;
   font-weight: 600;
   text-transform: uppercase;
-  padding-top: 0.625rem;
-  padding-right: 1.25rem;
-  padding-bottom: 0.625rem;
-  padding-left: 1.25rem;
+  padding:0.625rem 1.25rem ;
+}
+/* outline primary */
+.button-outline-primary{
+  background-color: transparent;
+  color:rgb(94, 114, 228) ;
+  border: 1px solid rgb(94, 114, 228);  
 }
 .button-outline-primary:hover{
   background-color: rgb(94, 114, 228);
-  color:white !important;
+  color:white;
 }
 
 /*outline info */
@@ -217,75 +238,40 @@ h6, .h6 {
   background-color:transparent ;
   color: rgb(17, 205, 239);
   border: 1px solid rgb(17, 205, 239);
-
-  font-size: 0.875rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding-top: 0.625rem;
-  padding-right: 1.25rem;
-  padding-bottom: 0.625rem;
-  padding-left: 1.25rem;
 }
 .button-outline-info:hover{
   background-color: rgb(17, 205, 239);
-  color: white !important;
+  color: white;
 }
-
 /*outline success */
 .button-outline-success{
   background-color: transparent;
   color: rgb(45, 206, 137);
   border: 1px solid rgb(45, 206, 137);
-
-  font-size: 0.875rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding-top: 0.625rem;
-  padding-right: 1.25rem;
-  padding-bottom: 0.625rem;
-  padding-left: 1.25rem;
 }
 .button-outline-success:hover{
   background-color:rgb(45, 206, 137) ;
-  color: white !important;
-
+  color: white;
 }
-
 /*outline warning */
 .button-outline-warning{
   background-color: transparent;
   color: rgb(251, 99, 64);
   border: 1px solid rgb(251, 99, 64);
-
-  font-size: 0.875rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding-top: 0.625rem;
-  padding-right: 1.25rem;
-  padding-bottom: 0.625rem;
-  padding-left: 1.25rem;
 }
 .button-outline-warning:hover{
   background-color: rgb(251, 99, 64);
-  color: white !important;
+  color: white;
 }
-
 /* outline danger */
 .button-outline-danger{
   background-color: transparent;
   color:rgb(245, 54, 92) ;
   border: 1px solid rgb(245, 54, 92);
-  font-size: 0.875rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding-top: 0.625rem;
-  padding-right: 1.25rem;
-  padding-bottom: 0.625rem;
-  padding-left: 1.25rem;
 }
 .button-outline-danger:hover{
   background-color: rgb(245, 54, 92);
-  color: white !important;
+  color: white;
 }
 
 /* ========= links========= */
@@ -513,8 +499,6 @@ h6, .h6 {
     }
   }
    
-
-  
   .navbar-transparent .navbar-brand {
     color: white;
   }
@@ -763,15 +747,7 @@ h6, .h6 {
 
 
 /* ========basic elements  buttons ************ */
-.basic-elements .tittle{
-  font-weight: 500;
-  text-transform: capitalize;    
-}
-.basic-elements .sub-tittle{
-  color: rgb(45, 206, 137);
-  font-weight: 500;
-  text-transform: capitalize;
-}
+
 .basic-elements .row{
   margin: 40px 0; 
 }

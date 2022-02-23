@@ -14,15 +14,16 @@
 }
 
 
-
-
-
-
-
-
 /* =======cards section======= */
 .card-section{
     margin-top: -160px;
+}
+@media screen and (max-width:992px) {
+    .card-section{
+        margin-top: 20px;
+        
+    }
+      
 }
 
 .card-1{
