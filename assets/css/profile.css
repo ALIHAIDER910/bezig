@@ -1,10 +1,19 @@
+/* profile-banner */
+.profile-banner{
+    height: 80vh;
+    background-image: url(/assets/images/banner/banner-5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* profile section */
 .profile{
-    margin-top: -170px;   
+    margin-top: -200px;   
 }
 .profile img{
     width: 190px;
     height: 190px;
     border-radius: 50%;
-    margin-top: -130px;  
+    margin-top: -120px;  
 }
