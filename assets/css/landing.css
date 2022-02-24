@@ -1,8 +1,10 @@
 
-
 .landing-banner{
-    background-color: rgb(111, 131, 238);
    min-height: 120vh;
+   background-image: url(/assets/images/banner/banner-2.jpg);
+   background-repeat: no-repeat;
+   background-position: center ;
+   background-size: cover;
 }
 .landing-banner .content-area{
     margin-top: 65px;
@@ -13,19 +15,16 @@
     line-height: 1.7;   
 }
 
-
 /* =======cards section======= */
 .card-section{
     margin-top: -160px;
 }
 @media screen and (max-width:992px) {
     .card-section{
-        margin-top: 20px;
-        
+        margin-top: 20px;       
     }
       
 }
-
 .card-1{
     box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);   
 }
