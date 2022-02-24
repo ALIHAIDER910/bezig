@@ -7,18 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/vandor/bootstrap/css/bootstrap.min.css">
-  <!-- fontawesome -->
-  <link rel="stylesheet" href="assets/vandor/fontawesome/css/all.css">
+   <!-- font awesome -->
+   <link rel="stylesheet" href="./assets/vandor/nucleo/css/nucleo.css">
+   <link rel="stylesheet" href="./assets/vandor/font-awesome/css/font-awesome.min.css">
   <!-- custom css -->
   <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="assets/css/profile.css">
-  <title>profile</title>
+   <!-- favicon -->
+   <link rel="icon" type="image" href="./assets/images/favicon.png">
+  <title>Bezig Design System - Bootstrap 4 - profile page</title>
 </head>
-
 <body>
 
   <!-- banner section start here ********* -->
-  <div class="banner " style="height: 80vh;">
+  <div class="profile-banner border" >
     <!--======== header======== -->
     <header class="header header-global">
       <!-- navbar -->
@@ -26,12 +28,12 @@
         <div class="container ">
           <!-- brand -->
           <a href="index.html" class="navbar-brand mr-lg-5">
-            <img src="assets/images/brand/white.png" height="30px" class="img-fluid" alt="">
+            <img src="assets/images/brand/white-logo.svg" height="30px" class="img-fluid" alt="logo">
           </a>
           <!-- toggler -->
           <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global"
             aria-expanded="false" aria-controls="navbar_global" aria-label="toggle navigation">
-            <span class="navbar-toggler-icon "></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
 
           <!-- -----custom collapse -->
@@ -39,8 +41,8 @@
             <div class="navbar-collapse-header">
               <div class="row">
                 <div class="col-6 collapse-brand">
-                  <a href="">
-                    <img src="./assets/images/brand/blue.png" alt="">
+                  <a href="#">
+                    <img src="./assets/images/brand/black-logo.svg" alt="logo">
                   </a>
                 </div>
                 <div class="col-6 collapse-close">
@@ -57,7 +59,7 @@
             <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
-                  <i class="fas fa-toggle-off  d-lg-none"></i>
+                  <i class="ni ni-ui-04  d-lg-none"></i>
                   <span class="nav-link-inner--text">Components</span>
                 </a>
                 <div class="dropdown-menu  dropdown-menu-xl">
@@ -65,9 +67,9 @@
                   <div class="dropdown-menu-inner">
                     <!-- drop item 1 -->
                     <div class="dropdown-item">
-                      <a href="" class="media d-flex align-items-center ">
+                      <a href="#" class="media d-flex align-items-center ">
                         <div class="icon  background-primary text-white  rounded-circle icon-box">
-                          <i class="fas fa-rocket  text-white"></i>
+                          <i class="ni ni-spaceship  text-white"></i>
                         </div>
                         <div class="media-body ml-3">
                           <h6 class=" text-primary mb-md-1">Getting started</h6>
@@ -80,9 +82,9 @@
 
                     <!-- drop item 2 -->
                     <div class="dropdown-item">
-                      <a href=" " class="media d-flex align-items-center">
+                      <a href="#" class="media d-flex align-items-center">
                         <div class="icon background-success text-white  rounded-circle text-white icon-box">
-                          <i class="fas fa-palette"></i>
+                          <i class="ni ni-palette"></i>
                         </div>
                         <div class="media-body ml-3">
                           <h6 class=" text-primary  mb-md-1 ">Foundation</h6>
@@ -94,9 +96,9 @@
                     <!--dropdown item end-->
                     <!-- drop item 3 -->
                     <div class="dropdown-item">
-                      <a href="" class="media d-flex align-items-center">
+                      <a href="#" class="media d-flex align-items-center">
                         <div class="icon background-warning text-white  rounded-circle  icon-box">
-                          <i class="fas fa-toggle-off "></i>
+                          <i class="ni ni-ui-04 "></i>
                         </div>
                         <div class="media-body ml-3">
                           <h6 class=" text-danger  mb-md-1">Components</h6>
@@ -112,7 +114,7 @@
 
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
-                  <i class="fas fa-square d-lg-none"></i>
+                  <i class="ni ni-collection d-lg-none"></i>
                   <span class="nav-link-inner--text">Examples</span>
                 </a>
                 <div class="dropdown-menu border-0">
@@ -127,35 +129,35 @@
               <li class="nav-item">
                 <a class="nav-link nav-link-icon" href="#" target="_blank" data-toggle="tooltip"
                   title="Like us on Facebook">
-                  <i class="fab fa-facebook-square "></i>
+                  <i class="fa fa-facebook-square "></i>
                   <span class="nav-link-inner--text d-lg-none">Facebook</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-link-icon" href="#" target="_blank" data-toggle="tooltip"
                   title="Follow us on Instagram">
-                  <i class="fab fa-instagram "></i>
+                  <i class="fa fa-instagram "></i>
                   <span class="nav-link-inner--text d-lg-none">Instagram</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-link-icon" href="#" target="_blank" data-toggle="tooltip"
                   title="Follow us on Twitter">
-                  <i class="fab fa-twitter   "></i>
+                  <i class="fa fa-twitter-square"></i>
                   <span class="nav-link-inner--text d-lg-none">Twitter</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-link-icon" href="#" target="_blank" data-toggle="tooltip"
                   title="Star us on Github">
-                  <i class="fab fa-github "></i>
+                  <i class="fa fa-github"></i>
                   <span class="nav-link-inner--text d-lg-none">Github</span>
                 </a>
               </li>
               <li class="nav-item d-none d-lg-block ml-lg-4">
                 <a href="" target="_blank" class=" btn custom-btn button-neutral button-mediam">
                   <span class="btn-inner--icon">
-                    <i class="fas fa-cloud-download-alt mr-2"></i>
+                    <i class="fa fa-cloud-download mr-2"></i>
                   </span>
                   <span class="nav-link-inner">Download</span>
                 </a>
@@ -166,11 +168,11 @@
         <!--container-->
       </nav>
     </header>
-    <!-- banner section -->
-  </div>
+  </div> <!-- banner section -->
   <!-- profile section -->
-  <div class="container border profile bg-white rounded-lg shadow">
-    <div class="row m-5">
+  <div class="container   profile bg-white rounded-lg shadow ">
+    <div class="dropdown-divider"></div>
+    <div class="row m-5 ">
       <!-- col 1 -->
       <div class="col-lg-4   order-lg-0 order-1 my-lg-0 my-3 ">
         <!-- inner row -->
@@ -194,7 +196,7 @@
         <img src="assets/images/theme/team-4.jpg" class="img-fluid bounce-element" alt="profile">
       </div>
       <!-- col 3 -->
-      <div class="col-lg-4  text-center order-2  ">
+      <div class="col-lg-4  text-center order-2 mt-lg-0 mt-3 ">
         <button class="btn custom-btn button-sm button-info">connect</button>
         <button class="btn custom-btn button-sm button-dark mx-3">message</button>
       </div>
@@ -234,13 +236,13 @@
         </div>
         <div class="col-md-6">
           <a href="#" class="btn custom-btn button-success   ml-md-5 ml-0" data-toggle="tooltip" data-placement="top"
-            title="Follow  us on twitter"><i class="fab fa-twitter"></i></a>
+            title="Follow  us on twitter"><i class="fa fa-twitter"></i></a>
           <a href="#" class="btn custom-btn button-primary  ml-2" data-toggle="tooltip" data-placement="top"
-            title="like us on facebook"><i class="fab fa-facebook-square"></i> </a>
+            title="like us on facebook"><i class="fa fa-facebook-square"></i> </a>
           <a href="#" class="btn custom-btn button-danger ml-2" data-toggle="tooltip" data-placement="top"
-            title="Follow us"><i class="fab fa-twitter"></i></a>
+            title="Follow us"><i class="fa fa-dribbble"></i></a>
           <a href="#" class="btn custom-btn button-dark ml-2" data-toggle="tooltip" data-placement="top"
-            title="Star us on Github"><i class="fab fa-github"></i></a>
+            title="Star us on Github"><i class="fa fa-github"></i></a>
         </div>
       </div>
       <hr>
