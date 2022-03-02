@@ -36,6 +36,13 @@ h5, .h5 {
 h6, .h6 {
     font-size: 1rem;
 }
+/* ==========paragraphs========= */
+p{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
 /*========== Display custom classes========== */
 .theme-display-1{
     font-size: 3.3rem;
@@ -70,16 +77,6 @@ h6, .h6 {
   letter-spacing: .025em;
   text-transform: uppercase;
 }
-
-
-/* ==========paragraphs========= */
-.p{
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.7;
-}
-
-
 
 
 /*==========form input component========== */
@@ -121,7 +118,7 @@ h6, .h6 {
 .is-valid::placeholder{
     color: #05c46b;
 }
-/* ========rotate====== */
+/* ========rotate element====== */
 .bounce-element:hover{
         transition-property: all;
         transform: translateY(-3px);
@@ -716,21 +713,16 @@ h6, .h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 /* ========hero section======= */
 .hero .hero-row{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 14%;
+    margin-bottom: 14%;
     text-align: center;
     color: white;
 }
-.hero .hero-row h5{
-    font-size: 20px;
-    font-weight: 300;
-    padding: 20px 0;
-    color: white;
-    line-height: 35px;
-}
+
 .hero .hero-row button{
     margin-bottom: 40px;
 }
@@ -852,7 +844,6 @@ h6, .h6 {
     padding-top: 50px;
 }
 .slider p{
-    line-height: 40px;
     padding-right: 40px;
 }
 
